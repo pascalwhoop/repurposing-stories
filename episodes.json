@@ -9,5 +9,16 @@
     "duration_seconds": 4200,
     "mp3_filename": "minoxidil-alopecia.mp3",
     "source_mp3": "minoxidil full-episode.mp3"
+  },
+  {
+    "episode_number": 2,
+    "drug": "rituximab",
+    "disease": "ms",
+    "title": "The Cancer Drug That Rewrote MS",
+    "description": "In 1997, the FDA approved rituximab to kill cancerous B cells in lymphoma patients—it would become one of the best-selling drugs in history, generating over $100 billion in revenue. But within a decade, this cancer drug would accidentally overturn 50 years of scientific consensus about multiple sclerosis, revealing that neurologists had been targeting the wrong immune cells all along. The result: a paradigm shift that transformed MS from a disease of inevitable disability into a manageable condition, giving hundreds of thousands of patients something they'd never had before—hope for a life without relapses. This is the story of how a single 2008 trial showing 91% reduction in MRI lesions stunned the neurology world, spawned a $9 billion annual market, and became the first treatment ever for primary progressive MS.",
+    "pub_date": "December 5, 2025",
+    "duration_seconds": 2707,
+    "mp3_filename": "rituximab-ms.mp3",
+    "source_mp3": "full-episode.mp3"
   }
 ]

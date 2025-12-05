@@ -4,13 +4,23 @@
         <title>The Pivot - Drug Repurposing Stories</title>
         <link>https://pascalwhoop.github.io/repurposing-stories</link>
         <description>The Pivot analyzes the business and science of repurposed drugs, modeled after the structure of the Acquired podcast. Each episode deep-dives into a drug that failed at its original purpose but found massive success in treating a completely different condition.</description>
-        <lastBuildDate>Fri, 05 Dec 2025 17:27:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Dec 2025 18:15:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2025 The Pivot Podcast</copyright>
         <category>Science</category>
         <category>Business</category>
+        <item>
+            <title><![CDATA[Episode 02: The Cancer Drug That Rewrote MS]]></title>
+            <link>https://pascalwhoop.github.io/repurposing-stories</link>
+            <guid>rituximab-ms-episode-02</guid>
+            <pubDate>Thu, 04 Dec 2025 23:00:00 GMT</pubDate>
+            <description><![CDATA[In 1997, the FDA approved rituximab to kill cancerous B cells in lymphoma patients—it would become one of the best-selling drugs in history, generating over $100 billion in revenue. But within a decade, this cancer drug would accidentally overturn 50 years of scientific consensus about multiple sclerosis, revealing that neurologists had been targeting the wrong immune cells all along. The result: a paradigm shift that transformed MS from a disease of inevitable disability into a manageable condition, giving hundreds of thousands of patients something they'd never had before—hope for a life without relapses. This is the story of how a single 2008 trial showing 91% reduction in MRI lesions stunned the neurology world, spawned a $9 billion annual market, and became the first treatment ever for primary progressive MS.]]></description>
+            <content:encoded><![CDATA[In 1997, the FDA approved rituximab to kill cancerous B cells in lymphoma patients—it would become one of the best-selling drugs in history, generating over $100 billion in revenue. But within a decade, this cancer drug would accidentally overturn 50 years of scientific consensus about multiple sclerosis, revealing that neurologists had been targeting the wrong immune cells all along. The result: a paradigm shift that transformed MS from a disease of inevitable disability into a manageable condition, giving hundreds of thousands of patients something they'd never had before—hope for a life without relapses. This is the story of how a single 2008 trial showing 91% reduction in MRI lesions stunned the neurology world, spawned a $9 billion annual market, and became the first treatment ever for primary progressive MS.]]></content:encoded>
+            <author>contact@pascalwhoop.com (The Pivot Podcast)</author>
+            <enclosure length="0" type="audio/mpeg" url="https://pascalwhoop.github.io/repurposing-stories/episodes/rituximab-ms.mp3"/>
+        </item>
         <item>
             <title><![CDATA[Episode 01: Minoxidil - The Hairy Discovery]]></title>
             <link>https://pascalwhoop.github.io/repurposing-stories</link>
