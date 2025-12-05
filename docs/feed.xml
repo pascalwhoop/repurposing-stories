@@ -1,46 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>The Pivot - Drug Repurposing Stories</title>
-    <link>https://pascalwhoop.github.io/repurposing-stories</link>
-    <language>en-us</language>
-    <copyright>© 2025 The Pivot Podcast</copyright>
-    <itunes:subtitle>The business and science of drug repurposing</itunes:subtitle>
-    <itunes:author>The Pivot Podcast</itunes:author>
-    <description>The Pivot analyzes the business and science of repurposed drugs, modeled after the structure of the Acquired podcast. Each episode deep-dives into a drug that failed at its original purpose but found massive success in treating a completely different condition.</description>
-    <itunes:summary>The Pivot analyzes the business and science of repurposed drugs, modeled after the structure of the Acquired podcast. Each episode deep-dives into a drug that failed at its original purpose but found massive success in treating a completely different condition.</itunes:summary>
-    <itunes:owner>
-      <itunes:name>The Pivot Podcast</itunes:name>
-      <itunes:email>contact@pascalwhoop.com</itunes:email>
-    </itunes:owner>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:category text="Science">
-      <itunes:category text="Medicine"/>
-    </itunes:category>
-    <itunes:category text="Business">
-      <itunes:category text="Entrepreneurship"/>
-    </itunes:category>
-    <itunes:image href="https://pascalwhoop.github.io/repurposing-stories/artwork.jpg"/>
-
-    <!-- Episode 01: Minoxidil -->
-    <item>
-      <title>Episode 01: Minoxidil - The Hairy Discovery</title>
-      <itunes:title>Minoxidil - The Hairy Discovery</itunes:title>
-      <itunes:episode>1</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <description>In the late 1950s, Upjohn chemists were hunting for an ulcer cure when they accidentally stumbled upon a blood pressure drug that caused one embarrassing side effect: patients sprouted hair everywhere, like werewolves on medication. Deemed a cosmetic nightmare that caused women to stop their lifesaving hypertension treatment, this "flaw" nearly ended the drug's commercial viability—until a cardiologist's casual consultation with a Miami dermatologist transformed it into the world's first FDA-approved hair loss treatment. What followed was a 15-year patent war, a $200 million blockbuster, and a cultural revolution that legitimized an entire industry of appearance medicine—all because someone paid attention when patients started getting hairy.</description>
-      <itunes:summary>In the late 1950s, Upjohn chemists were hunting for an ulcer cure when they accidentally stumbled upon a blood pressure drug that caused one embarrassing side effect: patients sprouted hair everywhere, like werewolves on medication. Deemed a cosmetic nightmare that caused women to stop their lifesaving hypertension treatment, this "flaw" nearly ended the drug's commercial viability—until a cardiologist's casual consultation with a Miami dermatologist transformed it into the world's first FDA-approved hair loss treatment. What followed was a 15-year patent war, a $200 million blockbuster, and a cultural revolution that legitimized an entire industry of appearance medicine—all because someone paid attention when patients started getting hairy.</itunes:summary>
-      <enclosure url="https://pascalwhoop.github.io/repurposing-stories/episodes/minoxidil-alopecia.mp3"
-                 length="40756772"
-                 type="audio/mpeg"/>
-      <guid isPermaLink="false">minoxidil-alopecia-episode-01</guid>
-      <pubDate>Thu, 05 Dec 2024 09:00:00 GMT</pubDate>
-      <itunes:duration>4200</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:keywords>drug repurposing, minoxidil, hair loss, pharmaceutical, medicine, business</itunes:keywords>
-    </item>
-
-  </channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>The Pivot - Drug Repurposing Stories</title>
+        <link>https://pascalwhoop.github.io/repurposing-stories</link>
+        <description>The Pivot analyzes the business and science of repurposed drugs, modeled after the structure of the Acquired podcast. Each episode deep-dives into a drug that failed at its original purpose but found massive success in treating a completely different condition.</description>
+        <lastBuildDate>Fri, 05 Dec 2025 17:27:17 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>© 2025 The Pivot Podcast</copyright>
+        <category>Science</category>
+        <category>Business</category>
+        <item>
+            <title><![CDATA[Episode 01: Minoxidil - The Hairy Discovery]]></title>
+            <link>https://pascalwhoop.github.io/repurposing-stories</link>
+            <guid>minoxidil-alopecia-episode-01</guid>
+            <pubDate>Thu, 04 Dec 2025 23:00:00 GMT</pubDate>
+            <description><![CDATA[In the late 1950s, Upjohn chemists were hunting for an ulcer cure when they accidentally stumbled upon a blood pressure drug that caused one embarrassing side effect: patients sprouted hair everywhere, like werewolves on medication. Deemed a cosmetic nightmare that caused women to stop their lifesaving hypertension treatment, this "flaw" nearly ended the drug's commercial viability—until a cardiologist's casual consultation with a Miami dermatologist transformed it into the world's first FDA-approved hair loss treatment. What followed was a 15-year patent war, a $200 million blockbuster, and a cultural revolution that legitimized an entire industry of appearance medicine—all because someone paid attention when patients started getting hairy.]]></description>
+            <content:encoded><![CDATA[In the late 1950s, Upjohn chemists were hunting for an ulcer cure when they accidentally stumbled upon a blood pressure drug that caused one embarrassing side effect: patients sprouted hair everywhere, like werewolves on medication. Deemed a cosmetic nightmare that caused women to stop their lifesaving hypertension treatment, this "flaw" nearly ended the drug's commercial viability—until a cardiologist's casual consultation with a Miami dermatologist transformed it into the world's first FDA-approved hair loss treatment. What followed was a 15-year patent war, a $200 million blockbuster, and a cultural revolution that legitimized an entire industry of appearance medicine—all because someone paid attention when patients started getting hairy.]]></content:encoded>
+            <author>contact@pascalwhoop.com (The Pivot Podcast)</author>
+            <enclosure length="0" type="audio/mpeg" url="https://pascalwhoop.github.io/repurposing-stories/episodes/minoxidil-alopecia.mp3"/>
+        </item>
+    </channel>
 </rss>

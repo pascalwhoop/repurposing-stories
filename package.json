@@ -1,0 +1,22 @@
+{
+  "name": "the-pivot-podcast",
+  "version": "1.0.0",
+  "description": "Drug repurposing podcast website generator",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "generate:feed": "node scripts/generate-feed.js",
+    "generate:html": "node scripts/generate-html.js",
+    "generate:all": "npm run generate:feed && npm run generate:html",
+    "dev": "npm run build && npm run generate:all",
+    "serve": "live-server docs",
+    "watch": "concurrently \"npm run dev\" \"npm run serve\""
+  },
+  "dependencies": {
+    "feed": "^4.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2"
+  }
+}
