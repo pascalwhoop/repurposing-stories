@@ -84,7 +84,6 @@ Write all content to `stories/pair-<drug>-<disease>/shownotes/` directory:
 - `02-chapter-outline.md` - Narrative arc with timings, durations, beats, emotional tones, host dynamics, transitions
 - `03-playbook.md` - Three mental models with pattern/application/implications analysis
 - `04-grading-criteria.md` - Weighted rubrics, calculations, and host dialogue template
-- `episode-structure.md` - Index of all sections above (optional but helpful)
 
 ## Structural Guidelines
 

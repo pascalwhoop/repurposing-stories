@@ -26,9 +26,9 @@ ELENA: [curious] Do we know why some patients don't respond?
 
 MARCUS: [analytical] That's an active area of research. Some patients may have B-cell-independent mechanisms driving their disease. Others might repopulate B cells faster. There could be genetic factors affecting drug metabolism or immune reconstitution.
 
-ELENA: [passionate] But for the majority who do respond, the quality-of-life transformation is profound. I read patient testimonials—people saying things like, "I've gone from planning for disability to planning my career."
+ELENA: [passionate] But for the majority who do respond, the quality-of-life transformation is profound. Patient communities describe going from planning for disability to planning careers and futures.
 
-MARCUS: [emotional] Or parents saying, "We decided to have children because we're confident I can be an active, present parent."
+MARCUS: [emotional] Parents report deciding to have children because disease stability makes them confident they can be active, present parents.
 
 ELENA: [reflective] Before B-cell depletion, those decisions—whether to have children, whether to pursue an ambitious career—were overshadowed by uncertainty. Will I be able to walk in five years? Will I be cognitively intact?
 
@@ -198,15 +198,11 @@ ELENA: [emotional] Before we wrap, I want to come back to the human story. Becau
 
 MARCUS: [reflective] Agreed. What's the patient story you want to leave listeners with?
 
-ELENA: [passionate] There's a woman named Sarah—I found her story in a patient advocacy publication. She was diagnosed with MS in 2006 at age 28. By 2007, she'd had three relapses and was on interferon, terrified of her future.
+ELENA: [passionate] The Swedish registry data tells us what these numbers mean in human terms. Over 800 patients treated with rituximab, followed for years. For those diagnosed years before treatment, many went from multiple relapses annually to none over decades.
 
-MARCUS: [somber] This is pre-rituximab. What happened next?
+MARCUS: [emotional] Decades of stability. That transforms lives.
 
-ELENA: [emotional] In 2009, her neurologist suggested rituximab based on the Hauser trial. She started treatment. And over the next sixteen years, she's had zero relapses. Zero.
-
-MARCUS: [amazed] Sixteen years. She went from three relapses in one year to none in sixteen.
-
-ELENA: [tearful] She got married. She had two kids. She built a career as a graphic designer. She goes hiking with her family. And she said in the interview: "I don't think about MS every day anymore. It's just something I manage, not something that defines me."
+ELENA: [reflective] Patients who were diagnosed in the 1990s and early 2000s—who were told to expect progressive disability—have now lived full, active lives for fifteen, twenty years. Careers, marriages, children, all the things MS threatens to take away.
 
 MARCUS: [emotional] That's what A-plus looks like in Patient Impact. It's not just about lesion counts and relapse rates—it's about giving people their lives back.
 

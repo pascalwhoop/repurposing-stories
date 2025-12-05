@@ -102,9 +102,13 @@ ELENA: [triumphant] It means, on average, patients had one relapse every twenty-
 
 MARCUS: [passionate] That's not just better—that's disease control at a level neurologists had never seen before.
 
-ELENA: [reflective] I want to read you something. This is from a patient who was on the Swedish registry. She said: "I had three relapses in 2006, two in 2007. I started rituximab in 2008. It's been fifteen years, and I haven't had a single relapse since."
+ELENA: [reflective] The Swedish registry tracked 822 patients treated with rituximab. What they found was stunning.
 
-MARCUS: [emotional] Fifteen years. No relapses.
+MARCUS: [curious] What were the outcomes?
+
+ELENA: [passionate] For patients with relapsing-remitting MS, the annualized relapse rate was 0.044. That means, on average, one relapse every twenty-three years.
+
+MARCUS: [amazed] Compared to multiple relapses per year on the old treatments.
 
 ELENA: [somber] Before rituximab, that would have been unimaginable. Patients expected relapses—it was just a question of when and how severe.
 

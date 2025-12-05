@@ -327,18 +327,7 @@ Rituximab's success spawned a generation of competitors and successors:
 - OPERA and ORATORIO trials cited as models for MS drug development
 - Innovative endpoints (PPMS trial design)
 
-## The Human Stories
-
-### Testimonials (Anonymized Composites)
-
-**Sarah, diagnosed 2009, age 28:**
-> "When I started rituximab in 2010, I'd had three relapses in two years. Vision loss, numbness, terrifying unpredictability. I've now been 15 years without a relapse. I have two kids. I have a career. I have my life back."
-
-**Michael, PPMS diagnosed 2015, age 52:**
-> "I was told there was nothing they could do. Progressive MS, they said, just gets worse. When ocrelizumab was approved in 2017, I started immediately. My progression has slowed dramatically. I'm still walking, still working. Those extra years matter."
-
-**Dr. Jennifer Chen, MS neurologist:**
-> "Rituximab changed how I practice. Before, I'd tell patients about interferons and manage expectations. Now, I can offer therapies that give 60-70% of patients complete disease control. It's night and day."
+## Patient Experience and Community
 
 ### The Online Communities
 

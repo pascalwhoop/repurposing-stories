@@ -16,7 +16,8 @@ color: orange
 
 - Verify that the full episode MP3 exists in `stories/pair-<drug>-<disease>/transcript/`
 - The MP3 should be named like: `<drug> full-episode.mp3` or `<drug>-<disease>-full-episode.mp3`
-- Confirm the episode structure file exists: `stories/pair-<drug>-<disease>/episode-structure.md`
+- Confirm the episode structure file exists: `stories/pair-<drug>-<disease>/shownotes/episode-structure.md`
+- Generate the background research link: `https://github.com/pascalwhoop/repurposing-stories/blob/main/stories/pair-<drug>-<disease>/background/` (this will be displayed as "Show Notes" button for readers to access the research)
 
 ### 2. Run the Publishing Script
 
@@ -43,6 +44,7 @@ This script will:
   - Publication date
   - Proper episode number
 - Confirm the MP3 file is in `site/episodes/`
+- Verify that episode metadata includes `background_url` pointing to the GitHub background folder (will be displayed as "Show Notes" link on the website)
 
 ### 4. Create Git Branch and PR
 
