@@ -170,7 +170,7 @@ def main(
     drug: str = typer.Argument(..., help="Drug name (e.g., minoxidil)"),
     disease: str = typer.Argument(..., help="Disease name (e.g., alopecia)"),
     duration: Optional[int] = typer.Option(None, help="Episode duration in seconds (auto-calculated from MP3 if not provided)"),
-    domain: str = typer.Option("YOUR_DOMAIN_HERE", help="Your podcast domain (e.g., https://pivot-podcast.com)"),
+    domain: str = typer.Option("https://pascalwhoop.github.io/repurposing-stories", help="Your podcast domain (default: GitHub Pages)"),
 ):
     """
     Add a new episode to The Pivot Podcast website.
@@ -202,8 +202,8 @@ def main(
         metadata = {"title": f"{drug.title()} - {disease.title()}", "description": ""}
 
     # Setup paths
-    site_folder = Path("site")
-    episodes_folder = site_folder / "episodes"
+    docs_folder = Path("docs")
+    episodes_folder = docs_folder / "episodes"
     episodes_folder.mkdir(parents=True, exist_ok=True)
 
     mp3_filename = f"{drug}-{disease}.mp3"
@@ -225,7 +225,7 @@ def main(
         typer.echo(f"⏱️  Estimated duration: {duration // 60} minutes ({duration} seconds)")
 
     # Determine episode number (count existing items in RSS)
-    feed_path = site_folder / "feed.xml"
+    feed_path = docs_folder / "feed.xml"
     tree = ET.parse(feed_path)
     existing_items = tree.getroot().find("channel").findall("item")
     episode_number = len(existing_items) + 1
@@ -247,7 +247,7 @@ def main(
     # Add to HTML
     pub_date = datetime.now().strftime("%B %d, %Y")
     add_episode_to_html(
-        html_path=site_folder / "index.html",
+        html_path=docs_folder / "index.html",
         episode_number=episode_number,
         title=metadata["title"],
         description=metadata["description"],
@@ -255,14 +255,16 @@ def main(
         pub_date=pub_date,
         duration_minutes=duration // 60,
     )
-    typer.echo(f"✅ Added episode to HTML: {site_folder / 'index.html'}")
+    typer.echo(f"✅ Added episode to HTML: {docs_folder / 'index.html'}")
 
     typer.echo("\n🎉 Episode added successfully!")
     typer.echo(f"\n📝 Next steps:")
-    typer.echo(f"   1. Review the changes in site/")
-    typer.echo(f"   2. If domain is still YOUR_DOMAIN_HERE, update it:")
-    typer.echo(f"      sed -i '' 's|YOUR_DOMAIN_HERE|https://your-domain.com|g' site/index.html site/feed.xml")
-    typer.echo(f"   3. Deploy the site/ folder to your hosting provider")
+    typer.echo(f"   1. Review the changes in docs/")
+    typer.echo(f"   2. Commit and push to GitHub:")
+    typer.echo(f"      git add docs/")
+    typer.echo(f"      git commit -m 'Add episode: {drug.title()} - {disease.title()}'")
+    typer.echo(f"      git push")
+    typer.echo(f"   3. The site will automatically update at https://pascalwhoop.github.io/repurposing-stories")
 
 
 if __name__ == "__main__":
