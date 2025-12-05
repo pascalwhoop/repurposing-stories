@@ -33,7 +33,13 @@ The workflow uses specialized agents found in `.claude/agents/`:
     - Focuses on big-picture story structure
     - Outputs: Edited transcripts + editorial memo
 
-5. **[Publisher](./.claude/agents/publisher.md)** – Website Update & Git Publishing
+5. **[Speaker](./.claude/agents/speaker.md)** – Audio Generation & TTS
+
+    - Generates audio from completed transcripts
+    - Uses Google Gemini TTS API
+    - Outputs: MP3 file in `stories/pair-<drug>-<disease>/transcript/*.mp3`
+
+6. **[Publisher](./.claude/agents/publisher.md)** – Website Update & Git Publishing
     - Publishes episodes to the static website
     - Updates RSS feed and website homepage
     - Creates git branch and pull request for deployment
@@ -56,7 +62,10 @@ To create a new episode for a drug-disease pair:
 # Step 4: Edit phase
 /invoke-agent editor --pair="pair-<drug>-<disease>"
 
-# Step 5: Publish phase
+# Step 5: Audio phase
+/invoke-agent speaker --pair="pair-<drug>-<disease>"
+
+# Step 6: Publish phase
 /invoke-agent publisher --drug="<drug>" --disease="<disease>"
 ```
 
