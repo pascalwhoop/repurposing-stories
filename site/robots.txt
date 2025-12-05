@@ -1,0 +1,3 @@
+# Prevent search engines from indexing this private podcast
+User-agent: *
+Disallow: /

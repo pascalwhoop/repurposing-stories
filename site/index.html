@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pivot Podcast - Drug Repurposing Stories</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        .subscribe-section {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .subscribe-section h2 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .subscribe-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #764ba2;
+            color: white;
+        }
+
+        .btn-outline {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        .episodes-section h2 {
+            margin-bottom: 2rem;
+            color: #333;
+        }
+
+        .episode-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .episode-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+
+        .episode-number {
+            color: #667eea;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .episode-title {
+            font-size: 1.5rem;
+            margin: 0.5rem 0;
+            color: #333;
+        }
+
+        .episode-description {
+            color: #666;
+            margin: 1rem 0;
+            line-height: 1.8;
+        }
+
+        .episode-meta {
+            display: flex;
+            gap: 2rem;
+            font-size: 0.9rem;
+            color: #999;
+            margin-bottom: 1rem;
+        }
+
+        .episode-actions {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .btn-small {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 2px solid #f0f0f0;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subscribe-buttons {
+                flex-direction: column;
+            }
+
+            .episode-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎙️ The Pivot</h1>
+            <p class="tagline">The business and science of drug repurposing</p>
+        </header>
+
+        <section class="subscribe-section">
+            <h2>Subscribe to the Podcast</h2>
+            <p>Get notified when new episodes are released</p>
+            <div class="subscribe-buttons">
+                <a href="podcast://YOUR_DOMAIN_HERE/feed.xml" class="btn btn-primary">
+                    🍎 Subscribe in Apple Podcasts
+                </a>
+                <a href="pcast://YOUR_DOMAIN_HERE/feed.xml" class="btn btn-secondary">
+                    🤖 Subscribe on Android
+                </a>
+                <a href="feed.xml" class="btn btn-outline">
+                    📡 RSS Feed
+                </a>
+            </div>
+        </section>
+
+        <section class="episodes-section">
+            <h2>Episodes</h2>
+
+            <article class="episode-card">
+                <div class="episode-number">Episode 01</div>
+                <h3 class="episode-title">Minoxidil: The Hairy Discovery</h3>
+                <div class="episode-meta">
+                    <span>📅 December 5, 2025</span>
+                    <span>⏱️ 70 minutes</span>
+                </div>
+                <p class="episode-description">
+                    In the late 1950s, Upjohn chemists were hunting for an ulcer cure when they accidentally
+                    stumbled upon a blood pressure drug that caused one embarrassing side effect: patients sprouted
+                    hair everywhere, like werewolves on medication. Deemed a cosmetic nightmare that caused women
+                    to stop their lifesaving hypertension treatment, this "flaw" nearly ended the drug's commercial
+                    viability—until a cardiologist's casual consultation with a Miami dermatologist transformed it
+                    into the world's first FDA-approved hair loss treatment. What followed was a 15-year patent war,
+                    a $200 million blockbuster, and a cultural revolution that legitimized an entire industry of
+                    appearance medicine—all because someone paid attention when patients started getting hairy.
+                </p>
+                <div class="episode-actions">
+                    <a href="episodes/minoxidil-alopecia.mp3" class="btn btn-primary btn-small">
+                        ▶️ Play Episode
+                    </a>
+                    <a href="episodes/minoxidil-alopecia.mp3" download class="btn btn-outline btn-small">
+                        ⬇️ Download MP3
+                    </a>
+                </div>
+            </article>
+
+        </section>
+
+        <footer>
+            <p>The Pivot Podcast © 2025 | Exploring the fascinating stories of drug repurposing</p>
+        </footer>
+    </div>
+</body>
+</html>
