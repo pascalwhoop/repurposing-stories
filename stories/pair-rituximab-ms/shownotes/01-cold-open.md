@@ -1,0 +1,3 @@
+# Cold Open: The Cancer Drug That Rewrote MS
+
+In 1997, the FDA approved rituximab to kill cancerous B cells in lymphoma patients—it would become one of the best-selling drugs in history, generating over $100 billion in revenue. But within a decade, this cancer drug would accidentally overturn 50 years of scientific consensus about multiple sclerosis, revealing that neurologists had been targeting the wrong immune cells all along. The result: a paradigm shift that transformed MS from a disease of inevitable disability into a manageable condition, giving hundreds of thousands of patients something they'd never had before—hope for a life without relapses.
