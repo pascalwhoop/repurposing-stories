@@ -32,3 +32,5 @@ stories/**/transcript/*.mp3
 Thumbs.db
 
 node_modules/
+
+.claude/*.local.json
