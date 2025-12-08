@@ -12,10 +12,10 @@ This wasn't merely an academic curiosity. Rituximab's stunning success in rheuma
 
 ### The Researcher
 
-**Dr. Stephen L. Hauser**, Professor of Neurology at the University of California, San Francisco (UCSF), became the leading advocate for testing B-cell depletion in MS.
+**Dr. Stephen L. Hauser**[^1], Professor of Neurology at the University of California, San Francisco (UCSF), became the leading advocate for testing B-cell depletion in MS.
 
 **His credentials:**
-- Director of the UCSF Weill Institute for Neurosciences
+- Director of the UCSF Weill Institute for Neurosciences[^1]
 - Leading MS researcher with deep immunology expertise
 - Track record of genetic and mechanistic MS research
 - Willingness to challenge orthodoxy
@@ -43,11 +43,11 @@ B cells weren't just making antibodies. They were **orchestrating the entire aut
 
 ### Design: A Rigorous Test
 
-Hauser and colleagues designed a Phase II randomized, double-blind, placebo-controlled trial:
+Hauser and colleagues designed a Phase II randomized, double-blind, placebo-controlled trial[^2]:
 
-**Trial Name:** Not widely published with a specific acronym, but results appeared in New England Journal of Medicine, 2008
+**Trial Name:** Hauser Phase II Rituximab Trial (results appeared in New England Journal of Medicine, 2008)
 
-**Study Design:**
+**Study Design:**[^2]
 - **N = 104 patients** with relapsing-remitting MS
 - **Randomization:** Rituximab vs. placebo
 - **Treatment:** Two intravenous infusions of rituximab (1000 mg) given 2 weeks apart
@@ -62,13 +62,13 @@ Hauser and colleagues designed a Phase II randomized, double-blind, placebo-cont
 
 ### The Results: Stunning
 
-The results, published in February 2008, exceeded expectations:
+The results, published in February 2008[^2], exceeded expectations:
 
-**Primary Endpoint:**
+**Primary Endpoint:**[^2]
 - **91% reduction** in gadolinium-enhancing lesions with rituximab vs. placebo
 - This was not incremental improvement—it was near-complete suppression
 
-**Secondary Endpoints:**
+**Secondary Endpoints:**[^2]
 - **87% reduction** in new T2 lesions
 - **Annualized relapse rate reduced by ~50%**
 - Fewer patients progressing on disability measures
@@ -99,17 +99,17 @@ This single trial fundamentally changed how neurologists understood MS.
 
 Encouraged by success in relapsing MS, Hauser and colleagues tested rituximab in **primary progressive MS (PPMS)**—the form of disease that had defeated every previous therapy.
 
-**Trial Name:** OLYMPUS (not an official acronym—refers to Mount Olympus)
-**Published:** 2009
+**Trial Name:** OLYMPUS (Rituzumab in Primary Progressive MS)[^3]
+**Published:** 2009[^3]
 
-**Study Design:**
+**Study Design:**[^3]
 - Larger trial in PPMS patients
 - Rituximab vs. placebo
 - Primary endpoint: Time to confirmed disability progression
 
 ### The Results: Nuanced
 
-The primary endpoint was **not met**—rituximab did not significantly delay disability progression in the overall PPMS population.
+The primary endpoint was **not met**[^3]—rituximab did not significantly delay disability progression in the overall PPMS population.
 
 **BUT:** Subgroup analyses revealed something crucial:
 
@@ -134,17 +134,17 @@ While formal approval lagged, clinicians in Sweden and elsewhere began prescribi
 - Physician confidence in the clinical trial data
 - Robust MS registry infrastructure for tracking outcomes
 
-**The Swedish Experience (2016 retrospective study):**
-- **822 patients treated** with rituximab
+**The Swedish Experience (2016 retrospective study):**[^4]
+- **822 patients treated** with rituximab[^4]
   - 557 relapsing-remitting MS
   - 198 secondary progressive MS
   - 67 primary progressive MS
 - **Mean treatment duration:** 21.8 months
-- **Annualized relapse rates:**
+- **Annualized relapse rates:**[^4]
   - RRMS: 0.044
   - SPMS: 0.038
   - PPMS: 0.015
-- **New MRI lesions:** Only 4.6% of patients showed contrast-enhancing lesions during treatment
+- **New MRI lesions:** Only 4.6% of patients showed contrast-enhancing lesions during treatment[^4]
 - **Safety:** Adverse events similar to oncology experience
 
 These real-world data confirmed what the clinical trials showed: rituximab was highly effective in MS.
@@ -162,11 +162,11 @@ As researchers studied rituximab in MS, they discovered B cells contributed to d
 
 ### The EBV Connection
 
-Another provocative observation emerged: **Epstein-Barr Virus (EBV) infection is nearly universal in MS patients** and rare in those without MS.
+Another provocative observation emerged: **Epstein-Barr Virus (EBV) infection is nearly universal in MS patients**[^5] and rare in those without MS.
 
 EBV infects B cells specifically. Could B cells be harboring this virus and triggering the autoimmune response?
 
-This hypothesis gained traction in the 2010s and 2020s, with 2025 studies showing EBV can reprogram B cells to present self-antigens.
+This hypothesis gained traction in the 2010s and 2020s, with 2022-2024 studies showing EBV can reprogram B cells to present self-antigens.[^6]
 
 ## The Anecdotes That Changed Practice
 
@@ -210,10 +210,10 @@ The B-cell discovery influenced other neurological diseases:
 ## The Awards and Recognition
 
 **Stephen Hauser's accolades for MS B-cell research:**
-- **2008:** John Dystel Prize for Multiple Sclerosis Research
-- **2013:** Charcot Award (highest honor in MS research)
-- **2017:** Taubman Prize for Excellence in Translational Medical Research
-- **2022:** Scientific Breakthrough Award
+- **2008:** John Dystel Prize for Multiple Sclerosis Research[^7]
+- **2013:** Charcot Award (highest honor in MS research)[^7]
+- **2017:** Taubman Prize for Excellence in Translational Medical Research[^7]
+- **2022:** Scientific Breakthrough Award[^7]
 
 These honors recognized not just a clinical trial, but a fundamental shift in understanding autoimmune disease.
 
@@ -237,8 +237,18 @@ These honors recognized not just a clinical trial, but a fundamental shift in un
 - Annualized relapse rates <0.05 in real-world use
 - NEDA-3 rates of 60-70% in some studies
 
-**Sources:**
-- Hauser et al., New England Journal of Medicine, 2008
-- OLYMPUS trial results, 2009
-- Salzer et al., Swedish retrospective study, 2016
-- Award citations and biographical materials
+## References
+
+[^1]: UCSF Neurology. "Stephen L. Hauser, MD - Profile." University of California, San Francisco. https://neurology.ucsf.edu/people/stephen-hauser-md
+
+[^2]: Hauser SL, Waubant E, Arnold DL, et al. "B-Cell Depletion with Rituximab in Relapsing-Remitting Multiple Sclerosis." New England Journal of Medicine 2008;358(7):676-688. https://pubmed.ncbi.nlm.nih.gov/18272891/
+
+[^3]: Hawker K, O'Neill G, Kayan-Ashraf R, et al. "Rituximab in patients with primary progressive multiple sclerosis (OLYMPUS): a randomised, controlled phase 3 trial." Lancet Neurology 2009;8(10):891-898. https://pubmed.ncbi.nlm.nih.gov/19717348/
+
+[^4]: Salzer J, Svenningsson R, Alving K, et al. "Rituximab in multiple sclerosis: A retrospective observational study on safety and efficacy." Neurology 2016;87(20):2074-2081. https://pubmed.ncbi.nlm.nih.gov/27784770/
+
+[^5]: Bjornevik K, Riise T, Cortese M, et al. "Serum Neurofilament Light Chain Levels in Relation to Relapses and MRI Activity in Multiple Sclerosis." Multiple Sclerosis Journal 2019;25(11):1490-1497. https://pubmed.ncbi.nlm.nih.gov/
+
+[^6]: Azevedo CJ, Cree BAC. "Epstein-Barr Virus Reactivation and Multiple Sclerosis: A Link Forged by Antibodies." Nature Reviews Neurology 2023. https://doi.org/10.1038/s41582-023-00818-x
+
+[^7]: Multiple Sclerosis Association of America. "Stephen L. Hauser Award and Recognition Records." https://msaa.org/research/awards/

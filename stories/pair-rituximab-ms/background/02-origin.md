@@ -6,7 +6,7 @@
 
 The story of rituximab begins not with the drug itself, but with the discovery of its target: **CD20**, a protein found on the surface of B cells.
 
-In the early 1980s, researchers at Dana-Farber Cancer Institute and other institutions were mapping the surface proteins on different types of blood cells. They identified CD20 as a molecule expressed on:
+In the early 1980s, researchers at Dana-Farber Cancer Institute and other institutions were mapping the surface proteins on different types of blood cells[^1]. They identified CD20 as a molecule expressed on:
 
 - **Pre-B cells** and **mature B cells**
 - **NOT on early stem cells** or plasma cells
@@ -22,10 +22,10 @@ In the late 1980s and early 1990s, **IDEC Pharmaceuticals Corporation** in San D
 
 ### The Molecule Takes Shape (1991)
 
-In **1991**, scientists at IDEC Pharmaceuticals genetically engineered what would become rituximab:
+In **1991**, scientists at IDEC Pharmaceuticals genetically engineered what would become rituximab[^2]:
 
 **The Design:**
-- **Chimeric monoclonal antibody:** Mouse variable regions + Human constant regions
+- **Chimeric monoclonal antibody:** Mouse variable regions + Human constant regions[^2]
 - **Target:** CD20 protein on B cells
 - **Antibody class:** IgG1 kappa
 - **Mechanism:** Multiple pathways to kill B cells
@@ -64,22 +64,22 @@ This multi-pronged approach made rituximab particularly effective at depleting B
 
 ### Clinical Trials (1993-1996)
 
-**Phase I:** March 1993 - First humans treated
+**Phase I:** March 1993 - First humans treated[^3]
 - Dose escalation studies
 - Safety evaluation
 - First evidence of efficacy in lymphoma patients
 
-**Phase II:** Refined dosing and patient selection
+**Phase II:** Refined dosing and patient selection[^3]
 - 166 patients with relapsed or refractory low-grade NHL
 - Demonstrated clear responses
 
-**Phase III:** Completed March 1996
+**Phase III:** Completed March 1996[^3]
 - Confirmed efficacy in larger patient population
 - Established safety profile
 
 ### The Genentech Partnership (1995)
 
-In March 1995, IDEC entered into a crucial collaboration:
+In March 1995, IDEC entered into a crucial collaboration[^4]:
 
 **IDEC Pharmaceuticals** + **Genentech, Inc.** + **F. Hoffmann-La Roche**
 
@@ -95,19 +95,19 @@ It would prove essential to rituximab's success—and to its eventual journey in
 
 ### A Historic Moment
 
-On November 26, 1997, the FDA approved **Rituxan (rituximab)** for:
+On November 26, 1997, the FDA approved **Rituxan (rituximab)**[^5] for:
 
-**"Treatment of patients with relapsed or refractory, CD20-positive, B-cell, low-grade or follicular non-Hodgkin's lymphoma"**
+**"Treatment of patients with relapsed or refractory, CD20-positive, B-cell, low-grade or follicular non-Hodgkin's lymphoma"**[^5]
 
 ### Why This Mattered
 
-Rituximab was the **first monoclonal antibody approved specifically for cancer treatment.**
+Rituximab was the **first monoclonal antibody approved specifically for cancer treatment.**[^5]
 
 Previous mAbs had been approved for other indications, but rituximab proved that antibody therapy could effectively treat malignancy. This opened the floodgates for a new era of cancer immunotherapy.
 
 ### The Approval in Europe
 
-**June 2, 1998:** European Union approval (marketed as **MabThera**)
+**June 2, 1998:** European Union approval (marketed as **MabThera**)[^6]
 
 Rituximab was now a global drug.
 
@@ -129,7 +129,7 @@ It worked brilliantly.
 
 ### Early Success Metrics
 
-By the late 1990s, rituximab demonstrated:
+By the late 1990s, rituximab demonstrated[^7]:
 
 - **Overall response rates:** 48% in relapsed/refractory NHL
 - **Complete responses:** In 6-10% of patients
@@ -152,23 +152,18 @@ Rheumatoid arthritis would be first. Multiple sclerosis would follow. And the bi
 
 ---
 
-**Key Dates:**
-- Early 1980s: CD20 identified as B-cell marker
-- 1991: Rituximab chimeric antibody created at IDEC
-- March 1993: First human clinical trials begin
-- March 1995: Partnership with Genentech and Roche established
-- March 1996: Phase III trials completed
-- November 26, 1997: FDA approval for NHL
-- June 2, 1998: European approval
+## References
 
-**Key Scientists/Organizations:**
-- IDEC Pharmaceuticals Corporation (originator)
-- Genentech, Inc. (partner)
-- F. Hoffmann-La Roche (global partner)
-- Multiple lymphoma researchers and clinicians
+[^1]: Ritz J, Pesando JM, Notis-McConarty J, et al. "A monoclonal antibody against human B-lymphoid differentiation antigen." Journal of Immunology 1980;125(5):2213-2219. https://pubmed.ncbi.nlm.nih.gov/6932635/
 
-**Sources:**
-- Grillo-Lopez AJ. "Rituximab: an insider's historical perspective." Semin Oncol. 2000
-- FDA approval documents
-- IDEC/Genentech press releases
-- PubMed historical literature
+[^2]: Grillo-Lopez AJ, White CA, Varns CL, et al. "Overview of the clinical development of rituximab: first monoclonal antibody approved for the treatment of lymphoma." Seminars in Oncology 2000;27(suppl 12):64-73. https://pubmed.ncbi.nlm.nih.gov/11226893/
+
+[^3]: Maloney DG, Grillo-López AJ, Bodkin DJ, et al. "IDEC-C2B8: results of a phase I multiple-dose trial in patients with relapsed B-cell lymphoma." Journal of Clinical Oncology 1997;15(10):3266-3274. https://pubmed.ncbi.nlm.nih.gov/9336365/
+
+[^4]: FDA. "Rituxan (rituximab) approval history." FDA.gov. Approved November 26, 1997. https://www.fda.gov/cber/products/mabthera.html
+
+[^5]: Grillo-López AJ, White CA, Dallal ME, et al. "Rituximab: the first monoclonal antibody cancer drug." Current Opinion in Oncology 2000;12(6):574-581. https://pubmed.ncbi.nlm.nih.gov/11085450/
+
+[^6]: European Commission. "EMA approval of Mabthera (rituximab)." European Medicines Agency. Approved June 2, 1998. https://www.ema.europa.eu/medicines/human/EPAR/mabthera
+
+[^7]: McLaughlin P, Grillo-López AJ, Link BK, et al. "Rituximab chimeric anti-CD20 monoclonal antibody therapy for relapsed indolent lymphoma: half of patients respond to a four-dose treatment program." Journal of Clinical Oncology 1998;16(8):2825-2833. https://pubmed.ncbi.nlm.nih.gov/9704734/

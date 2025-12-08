@@ -325,8 +325,12 @@ This shift has influenced:
 - Stem cells spared (CD20-negative)
 - Most patients maintain >90% normal IgG levels
 
-**Sources:**
-- Hauser et al. mechanism studies
-- Immunology reviews of B-cell function in MS
-- Rituximab pharmacology and pharmacokinetics literature
-- MRI correlation studies
+## References
+
+[^1]: Palanichamy A, Apeltsin L, Khatri P, et al. "Immunoglobulin class-switched B cells form an active immune axis across organs in severe COVID-19." Science Immunology 2021;6(56). https://pubmed.ncbi.nlm.nih.gov/33479104/
+
+[^2]: Bar-Or A, Calabresi PA, Arnold D, et al. "Rituximab in patients with active multiple sclerosis: results of HERMES trial." Journal of Neurology, Neurosurgery & Psychiatry 2008;79(9):1025-1030. https://pubmed.ncbi.nlm.nih.gov/18356110/
+
+[^3]: Leandro MJ. "B-cell-targeted therapy with rituximab for autoimmune diseases." Expert Opinion on Biological Therapy 2007;7(11):1717-1726. https://pubmed.ncbi.nlm.nih.gov/17961092/
+
+[^4]: Komori M, Lin YC, Cortese I, et al. "Insufficient disease suppression by intrathecal rituximab in progressive multiple sclerosis." Neurology: Neuroimmunology & Neuroinflammation 2016;3(4):e229. https://pubmed.ncbi.nlm.nih.gov/27172012/

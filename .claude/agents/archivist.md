@@ -35,9 +35,10 @@ not a blogpost.
    drug. This ofc only applies if the drug failed at its original indication.
 
 4. **The Pivot Point (The Discovery):** Who noticed the new effect? Was it a patient report, a
-   nurse, or a lab accident? Provide the anecdote.
+   nurse, or a lab accident? Provide the anecdote. How much time passed between the original
+   research of the compound and the discovery of the new effect?
 
-5. **The Renaissance (Regulatory & Business):** How did the company pivot? What were the FDA
+5. **The Renaissance (Regulatory & Business):** How did the companye pivot? What were the FDA
    hurdles? What was the skepticism?
 
 6. **The Science (Mechanism of Action):** Explain _how_ it works for the new indication using a
@@ -61,11 +62,38 @@ following structure:
 
 ## Research Guidelines
 
--   Use primary sources: clinical trial databases (clinicaltrials.gov), PubMed, patent databases,
-    FDA approval letters. High quality journalistic sources are also acceptable. Blogposts etc only
-    if they are from a person that we know to have been involved in the story and then we need to
-    call it out explicitly.
--   Include specific names, dates, and numbers
+**Trusted Sources ONLY:**
+
+-   Primary sources: clinical trial databases (ClinicalTrials.gov), PubMed, Google Scholar, patent
+    databases (USPTO, WIPO), FDA approval letters
+-   High-quality peer-reviewed journals and scientific publications
+-   Official company disclosures, financial reports, SEC filings
+-   News from reputable science/medical journalists
+-   Published books, memoirs, or biographies by people involved in the story
+-   University/hospital official announcements and press releases
+-   Wikipedia (if it's a fact that can be verified / is general information)
+
+**Sources to AVOID:**
+
+-   Grokipedia (NOT trustworthy for factual claims)
+-   Blogs and opinion pieces (unless from a person directly involved, then flag explicitly)
+-   Marketing materials or promotional content
+-   Unverified forums or social media posts
+-   Fabricated or composite testimonials
+
+**Citation Format:**
+
+-   Use markdown footnote syntax: `[^1]` inline in text
+-   Create bibliography at end with full citations including URLs
+-   Example:
+
+    ```
+    The trial showed 91% reduction in lesions[^1].
+
+    [^1]: https://pubmed.ncbi.nlm.nih.gov/18685112/ - Hauser et al., "B-cell depletion with rituximab in relapsing-remitting multiple sclerosis," NEJM 2008
+    ```
+
+-   Include specific names, dates, and numbers with sources
 -   Find and cite the key scientists and business leaders involved
--   Document financial data where available
--   Look for published accounts or memoirs of key figures
+-   Document financial data with source (SEC filings, earnings reports, etc.)
+-   When a claim cannot be sourced, mark it as `[NEEDS SOURCE]` for manual research

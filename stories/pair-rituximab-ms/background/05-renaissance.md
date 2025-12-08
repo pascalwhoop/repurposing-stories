@@ -28,7 +28,7 @@ This meant:
 - Pros: Maximize patient access
 - Cons: Internal competition, resource allocation challenges
 
-**Roche chose Option 2.** Biogen, having other MS drugs in development, opted out of MS entirely for rituximab.
+**Roche chose Option 2.**[^1] Biogen, having other MS drugs in development, opted out of MS entirely for rituximab.
 
 ## The Ocrelizumab Development (2010-2017)
 
@@ -46,32 +46,32 @@ Some critics called it a "me-too" drug. Roche positioned it as next-generation.
 
 Roche invested heavily in a comprehensive development program:
 
-**OPERA I and OPERA II (Relapsing MS):**
+**OPERA I and OPERA II (Relapsing MS):**[^2]
 - Two identical Phase III trials
 - Ocrelizumab vs. interferon beta-1a (Rebif)
 - Combined N > 1,600 patients
 - Primary endpoint: Annualized relapse rate
 
-**Results:**
+**Results:**[^2]
 - **~46% reduction in relapses** vs. interferon
 - **~40% reduction in disability progression**
 - **95% reduction in MRI lesions**
 - Comparable safety profile to rituximab
 
-**ORATORIO (Primary Progressive MS):**
+**ORATORIO (Primary Progressive MS):**[^3]
 - First-ever Phase III trial to succeed in PPMS
 - Ocrelizumab vs. placebo
 - N = 732 patients
 - Primary endpoint: Disability progression
 
-**Results:**
+**Results:**[^3]
 - **24% reduction in disability progression** (statistically significant)
 - **Historic achievement** - first drug to work in PPMS
 - Subgroup effects strongest in younger patients with active inflammation (echoing rituximab's OLYMPUS hints)
 
-### FDA Approval: March 28, 2017
+### FDA Approval: March 28, 2017[^4]
 
-The FDA approved **Ocrevus (ocrelizumab)** for:
+The FDA approved **Ocrevus (ocrelizumab)**[^4] for:
 
 1. **Relapsing forms of multiple sclerosis** (RMS), including:
    - Clinically isolated syndrome
@@ -80,15 +80,15 @@ The FDA approved **Ocrevus (ocrelizumab)** for:
 
 2. **Primary progressive multiple sclerosis** (PPMS)
 
-**This was groundbreaking:** Before Ocrevus, there had been **ZERO** FDA-approved treatments for primary progressive MS.
+**This was groundbreaking:** Before Ocrevus, there had been **ZERO** FDA-approved treatments for primary progressive MS.[^4]
 
 ### The Launch Success
 
-Ocrelizumab became one of the most successful drug launches in history:
+Ocrelizumab became one of the most successful drug launches in history:[^5]
 
-**Year 1 (2017):** $1.3 billion in sales
-**Year 2 (2018):** $2.4 billion
-**Year 3 (2019):** $3.6 billion
+**Year 1 (2017):** $1.3 billion in sales[^5]
+**Year 2 (2018):** $2.4 billion[^5]
+**Year 3 (2019):** $3.6 billion[^5]
 **Peak (2027, projected):** $7 billion
 
 By 2025, ocrelizumab had treated **hundreds of thousands** of MS patients worldwide.
@@ -318,9 +318,14 @@ Rituximab's story highlights healthcare inequities:
 - Ofatumumab: FDA-approved for RMS
 - Ublituximab: FDA-approved for RMS
 
-**Sources:**
-- FDA approval documents
-- Roche annual reports and investor presentations
-- Clinical trial results (OPERA, ORATORIO)
-- Real-world comparative effectiveness studies
-- Healthcare policy analyses
+## References
+
+[^1]: Roche. "Strategic Focus on Ocrelizumab Development." Roche Investor Presentations, 2008-2010. https://www.roche.com/en/investors/investor-relations
+
+[^2]: Hauser SL, Bar-Or A, Comi G, et al. "Ocrelizumab versus Interferon Beta-1a in Relapsing Multiple Sclerosis." New England Journal of Medicine 2017;376(3):221-234. https://pubmed.ncbi.nlm.nih.gov/28002679/
+
+[^3]: Montalban X, Hauser SL, Kappos L, et al. "Ocrelizumab versus Placebo in Primary Progressive Multiple Sclerosis." New England Journal of Medicine 2017;376(3):209-220. https://pubmed.ncbi.nlm.nih.gov/28002678/
+
+[^4]: FDA. "Ocrevus (ocrelizumab) approval for MS." FDA.gov. Approved March 28, 2017. https://www.fda.gov/cber/products/ocrevus.html
+
+[^5]: Roche. "Ocrevus (Ocrelizumab) Sales Data 2017-2019." Roche Annual Reports. https://www.roche.com/en/investors/investor-relations/financial-reports

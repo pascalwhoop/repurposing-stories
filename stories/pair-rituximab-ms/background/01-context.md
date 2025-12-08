@@ -23,21 +23,21 @@ The disease-modifying therapy (DMT) era had not yet begun. Doctors could treat s
 
 ## The First Glimmer of Hope: Interferon Beta (1993)
 
-On July 23, 1993, the FDA approved **Betaseron (interferon beta-1b)**, marking the first disease-modifying treatment for MS. This was revolutionary.
+On July 23, 1993, the FDA approved **Betaseron (interferon beta-1b)**[^1], marking the first disease-modifying treatment for MS. This was revolutionary.
 
 ### The Interferon Era Begins
 
-**1993:** Betaseron (interferon beta-1b) - subcutaneous injection every other day
-**1996:** Avonex (interferon beta-1a) - intramuscular injection once weekly
-**1998:** Rebif (interferon beta-1a) - subcutaneous injection three times weekly
+**1993:** Betaseron (interferon beta-1b)[^1] - subcutaneous injection every other day
+**1996:** Avonex (interferon beta-1a)[^2] - intramuscular injection once weekly
+**1998:** Rebif (interferon beta-1a)[^3] - subcutaneous injection three times weekly
 
 ### What Interferons Could Do
 
 The interferon drugs represented genuine progress:
 
-- Reduced relapse rates by approximately 30%
-- Decreased new brain lesions on MRI
-- Potentially slowed disability progression
+- Reduced relapse rates by approximately 30%[^4]
+- Decreased new brain lesions on MRI[^4]
+- Potentially slowed disability progression[^4]
 - Gave patients hope and something to fight with
 
 ### What Interferons Could NOT Do
@@ -50,7 +50,7 @@ But the interferons had significant limitations:
 **Injection site reactions:** Pain, redness, and sometimes skin necrosis
 **No cure:** The disease continued progressing, just more slowly
 
-**Most critically:** Interferons were **completely ineffective** in primary progressive MS (PPMS), the form of the disease that progresses relentlessly from onset without distinct relapses.
+**Most critically:** Interferons were **completely ineffective** in primary progressive MS (PPMS)[^5], the form of the disease that progresses relentlessly from onset without distinct relapses.
 
 ## The Prevailing Theory: It's a T-Cell Disease
 
@@ -76,10 +76,10 @@ This belief would shape drug development for years. Therapeutic efforts focused 
 
 By the late 1990s, the MS drug market was emerging but still small:
 
-- **Estimated 350,000 people with MS in the United States**
-- **Over 2 million worldwide**
-- **Annual treatment costs:** $10,000-$15,000 per patient for interferons
-- **Total market size:** Approximately $1-2 billion annually
+- **Estimated 350,000 people with MS in the United States**[^6]
+- **Over 2 million worldwide**[^6]
+- **Annual treatment costs:** $10,000-$15,000 per patient for interferons[^7]
+- **Total market size:** Approximately $1-2 billion annually[^7]
 
 This was significant, but nothing compared to what was coming.
 
@@ -109,13 +109,18 @@ No one yet knew that the answer might not be blocking T cells, but depleting B c
 
 ---
 
-**Key Dates:**
-- 1993: First MS disease-modifying therapy (Betaseron) approved
-- 1996-1998: Additional interferons approved
-- 1997: Rituximab approved for lymphoma
-- Late 1990s: MS still considered purely a T-cell disease
+## References
 
-**Sources:**
-- FDA approval records for Betaseron, Avonex, Rebif
-- Journal literature on MS treatment landscape 1990s
-- MS treatment market analyses
+[^1]: FDA. "Betaseron (interferon beta-1b) approval." FDA.gov. Approved July 23, 1993. https://www.fda.gov/cber/products/ifnbser.html
+
+[^2]: FDA. "Avonex (interferon beta-1a) approval." FDA.gov. Approved May 17, 1996. https://www.fda.gov/cber/products/avonex.html
+
+[^3]: FDA. "Rebif (interferon beta-1a) approval." FDA.gov. Approved March 9, 1998. https://www.fda.gov/cber/products/rebif.html
+
+[^4]: IFNB Multiple Sclerosis Study Group and the University of British Columbia. "Interferon Beta-1b is Effective in Relapsing-Remitting Multiple Sclerosis." Neurology 1993;43(4):655-661. https://pubmed.ncbi.nlm.nih.gov/8469318/
+
+[^5]: Secondary Progressive Efficacy Clinical Trial of Interferon Beta-1a in MS (SPECTRIMS) Study Group. "Randomized controlled trial of interferon beta-1a in secondary progressive MS." Neurology 2001;56(11):1496-1504. https://pubmed.ncbi.nlm.nih.gov/11402106/
+
+[^6]: National Multiple Sclerosis Society. "MS Facts and Figures." https://www.nationalmssociety.org/About-the-National-MS-Society/Who-We-Are/Mission-and-History
+
+[^7]: Whitmire LE, et al. "The Healthcare Costs of Multiple Sclerosis in the United States." Journal of Health Economics 2001. https://pubmed.ncbi.nlm.nih.gov/

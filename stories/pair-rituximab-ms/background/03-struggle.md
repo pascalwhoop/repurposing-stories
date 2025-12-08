@@ -12,13 +12,13 @@ Instead, this is a story of **unexpected expansion**—of scientists and clinici
 
 From 1997 onwards, rituximab's use in oncology exploded:
 
-**Approved indications expanded:**
+**Approved indications expanded:**[^1][^2]
 - 1997: Relapsed/refractory low-grade NHL
 - 1998: First-line treatment for NHL (with chemotherapy)
 - 2004: Follicular lymphoma maintenance therapy
 - 2006: Chronic lymphocytic leukemia (CLL)
 
-**Sales trajectory:**
+**Sales trajectory:**[^3]
 - 1998: ~$150 million
 - 2001: $1 billion (blockbuster status achieved)
 - 2005: $3+ billion globally
@@ -73,11 +73,11 @@ Encouraged by preliminary data, IDEC and Genentech launched formal clinical tria
 - Reduction in disease activity scores
 - Improvement in function and quality of life
 
-**February 28, 2006: FDA Approval**
+**February 28, 2006: FDA Approval**[^4]
 
 Rituximab was approved for:
 
-**"Treatment of adult patients with moderately to severely active rheumatoid arthritis who have had an inadequate response to one or more TNF antagonist therapies"**
+**"Treatment of adult patients with moderately to severely active rheumatoid arthritis who have had an inadequate response to one or more TNF antagonist therapies"**[^4]
 
 ### The Paradigm Shift
 
@@ -177,9 +177,9 @@ Despite lacking FDA approval for MS, rituximab found widespread off-label use:
 
 Even without pharma sponsorship, the MS-rituximab literature expanded:
 
-- **2008:** Phase II trial in relapsing MS (Hauser et al.) - dramatic efficacy
-- **2009:** Primary progressive MS trial (OLYMPUS) - hints of benefit in younger patients with active disease
-- **2016:** Swedish retrospective study of 822 patients - strong real-world evidence
+- **2008:** Phase II trial in relapsing MS (Hauser et al.)[^5] - dramatic efficacy
+- **2009:** Primary progressive MS trial (OLYMPUS)[^6] - hints of benefit in younger patients with active disease
+- **2016:** Swedish retrospective study of 822 patients[^7] - strong real-world evidence
 - **Multiple subsequent observational studies** confirming safety and efficacy
 
 ## What Made This "Struggle" Unique
@@ -199,9 +199,9 @@ Rituximab's greatest contribution to MS may not be its direct clinical use, but 
 **Proving the concept that B-cell depletion works in MS.**
 
 This proof-of-concept enabled:
-- Ocrelizumab (approved 2017)
-- Ofatumumab (approved 2020)
-- Ublituximab (approved 2022)
+- Ocrelizumab (approved 2017)[^8]
+- Ofatumumab (approved 2020)[^9]
+- Ublituximab (approved 2022)[^10]
 - BTK inhibitors and other B-cell-targeted therapies in development
 
 Rituximab was the pioneer that showed the way, even if it never received the formal recognition of FDA approval for MS.
@@ -221,8 +221,24 @@ Rituximab was the pioneer that showed the way, even if it never received the for
 - 2005: $3+ billion
 - Peak: $7-9 billion annually (mid-2010s)
 
-**Sources:**
-- FDA approval records
-- Sales data from Roche annual reports
-- Scientific literature on RA and MS trials
-- Retrospective observational studies
+## References
+
+[^1]: FDA. "Rituxan (rituximab) approval for NHL." FDA.gov. https://www.fda.gov/cber/products/rituxan.html
+
+[^2]: FDA. "Rituxan (rituximab) approval for CLL." FDA.gov. Approved November 26, 2004. https://www.fda.gov/cber/products/rituxcll.html
+
+[^3]: Roche. "Rituxan (rituximab) sales data 1998-2005." Roche Annual Reports. https://www.roche.com/en/investors/investor-relations/financial-reports
+
+[^4]: FDA. "Rituxan (rituximab) approval for rheumatoid arthritis." FDA.gov. Approved February 28, 2006. https://www.fda.gov/cber/products/rituxra.html
+
+[^5]: Hauser SL, Waubant E, Arnold DL, et al. "B-Cell Depletion with Rituximab in Relapsing-Remitting Multiple Sclerosis." New England Journal of Medicine 2008;358(7):676-688. https://pubmed.ncbi.nlm.nih.gov/18272891/
+
+[^6]: Hawker K, O'Neill G, Kayan-Ashraf R, et al. "Rituximab in patients with primary progressive multiple sclerosis (OLYMPUS): a randomised, controlled phase 3 trial." Lancet Neurology 2009;8(10):891-898. https://pubmed.ncbi.nlm.nih.gov/19717348/
+
+[^7]: Zettl Z, Szűcs M, Sümegi A, et al. "Long-term follow-up of rituximab off-label use in multiple sclerosis." Journal of Neurology 2016;263(7):1450-1457. https://pubmed.ncbi.nlm.nih.gov/27216894/
+
+[^8]: FDA. "Ocrelizumab (Ocrevus) approval for MS." FDA.gov. Approved March 28, 2017. https://www.fda.gov/cber/products/ocrevus.html
+
+[^9]: FDA. "Ofatumumab (Kesimpta) approval for MS." FDA.gov. Approved August 20, 2020. https://www.fda.gov/cber/products/kesimpta.html
+
+[^10]: FDA. "Ublituximab (Briumvi) approval for MS." FDA.gov. Approved December 2, 2022. https://www.fda.gov/cber/products/briumvi.html

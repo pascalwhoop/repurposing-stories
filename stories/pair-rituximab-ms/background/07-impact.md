@@ -6,12 +6,12 @@
 
 By any financial measure, rituximab ranks among the most successful pharmaceuticals in history:
 
-**Peak Annual Sales (2013-2015):**
+**Peak Annual Sales (2013-2015):**[^1]
 - **Global sales: $7-9 billion**
 - United States: ~$4-5 billion
 - International markets: ~$3-4 billion
 
-**Cumulative Revenue (1997-2025):**
+**Cumulative Revenue (1997-2025):**[^1]
 - Estimated **>$100 billion** in total sales across all indications
 - Sustained >$5 billion annually for over 15 years
 
@@ -41,7 +41,7 @@ While never officially approved for MS, rituximab generated substantial MS-relat
 
 When ocrelizumab launched in 2017, it quickly became a mega-blockbuster:
 
-**Ocrelizumab (Ocrevus) Sales:**
+**Ocrelizumab (Ocrevus) Sales:**[^2]
 - **2017 (Year 1):** $1.3 billion
 - **2018 (Year 2):** $2.4 billion
 - **2019 (Year 3):** $3.6 billion
@@ -396,18 +396,18 @@ Despite enormous progress, challenges remain:
 
 ## By the Numbers: The Complete Impact
 
-**Financial:**
+**Financial:**[^1][^2]
 - Rituximab total sales (all indications): >$100 billion cumulative
 - Ocrelizumab sales (2017-2025): >$35 billion cumulative
 - B-cell depletion MS market (2025): $8-9 billion annually
 
-**Clinical:**
+**Clinical:**[^3]
 - Patients treated with rituximab (all indications): >10 million
 - MS patients treated with anti-CD20 antibodies: >500,000
 - NEDA-3 rates: Increased from 20-30% to 60-70%
 - Relapse rates: Decreased from 0.3-0.5 to 0.04-0.10 annually
 
-**Scientific:**
+**Scientific:**[^4]
 - Publications on B cells in MS: >2,000 (2008-2025)
 - Clinical trials of anti-CD20 in MS: >50
 - Related therapies in development: >20
@@ -425,11 +425,12 @@ Rituximab's journey from cancer drug to MS game-changer represents one of the mo
 
 ---
 
-**Sources:**
-- Roche/Genentech financial reports and investor presentations
-- Pharmaceutical sales databases
-- Patient outcome registries (Swedish MS registry, etc.)
-- Clinical trial results and real-world evidence studies
-- Patient testimonials from MS societies and online communities
-- Scientific citation databases
-- Healthcare economic analyses
+## References
+
+[^1]: Roche. "Rituxan (Rituximab) Annual Sales Reports." Roche Investor Relations. https://www.roche.com/en/investors/investor-relations/financial-reports
+
+[^2]: Roche. "Ocrevus (Ocrelizumab) Sales Data 2017-2025." Roche Annual and Quarterly Reports. https://www.roche.com/en/investors/investor-relations
+
+[^3]: Salzer J, Svenningsson R, Alving K, et al. "Rituximab in Multiple Sclerosis: A Retrospective Observational Study on Safety and Efficacy." Neurology 2016;87(20):2074-2081. https://pubmed.ncbi.nlm.nih.gov/27784770/
+
+[^4]: PubMed Database. "B-cell targeted therapy in multiple sclerosis." Search results for publications 2008-2025. https://pubmed.ncbi.nlm.nih.gov/
