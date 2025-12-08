@@ -10,9 +10,10 @@ multiple sclerosis.
 
 ## The Journey at a Glance
 
-**Original Indication:** Non-Hodgkin Lymphoma (1997) **Repurposed For:** Rheumatoid Arthritis
-(2006), Multiple Sclerosis (off-label, ~2008 onwards) **Key Milestone:** Led to development of
-ocrelizumab, the first FDA-approved treatment for primary progressive MS (2017)
+-   **Original Indication:** Non-Hodgkin Lymphoma (1997)
+-   **Repurposed For:** Rheumatoid Arthritis (2006), Multiple Sclerosis (off-label, ~2008 onwards)
+-   **Key Milestone:** Led to development of ocrelizumab, the first FDA-approved treatment for
+    primary progressive MS (2017)
 
 ## Why This Story Matters
 
@@ -51,5 +52,6 @@ This dossier is organized into seven sections that tell the complete story:
 
 ---
 
-**Research Date:** December 2025 **Clinical Trial Reference:** NCT11418776 **Key Sources:** PubMed,
-ClinicalTrials.gov, FDA records, peer-reviewed journals
+-   **Research Date:** December 2025
+-   **Clinical Trial Reference:** NCT11418776
+-   **Key Sources:** PubMed, ClinicalTrials.gov, FDA records, peer-reviewed journals
