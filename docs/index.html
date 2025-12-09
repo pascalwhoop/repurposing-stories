@@ -1,588 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Pivot Podcast - Drug Repurposing Stories</title>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-          Cantarell, sans-serif;
-        line-height: 1.6;
-        color: #333;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        min-height: 100vh;
-        padding: 2rem;
-      }
-
-      .container {
-        max-width: 900px;
-        margin: 0 auto;
-        background: white;
-        border-radius: 20px;
-        padding: 3rem;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-      }
-
-      header {
-        text-align: center;
-        margin-bottom: 3rem;
-        padding-bottom: 2rem;
-        border-bottom: 2px solid #f0f0f0;
-      }
-
-      h1 {
-        font-size: 2.5rem;
-        color: #667eea;
-        margin-bottom: 0.5rem;
-      }
-
-      .tagline {
-        font-size: 1.2rem;
-        color: #666;
-        font-style: italic;
-      }
-
-      .subscribe-section {
-        background: #f8f9fa;
-        padding: 2rem;
-        border-radius: 12px;
-        margin-bottom: 3rem;
-        text-align: center;
-      }
-
-      .subscribe-section h2 {
-        margin-bottom: 1rem;
-        color: #333;
-      }
-
-      .subscribe-buttons {
-        display: flex;
-        gap: 1rem;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 1.5rem;
-      }
-
-      .btn {
-        display: inline-block;
-        padding: 1rem 2rem;
-        border-radius: 8px;
-        text-decoration: none;
-        font-weight: 600;
-        transition: transform 0.2s, box-shadow 0.2s;
-        cursor: pointer;
-      }
-
-      .btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-      }
-
-      .btn-primary {
-        background: #667eea;
-        color: white;
-      }
-
-      .btn-secondary {
-        background: #764ba2;
-        color: white;
-      }
-
-      .btn-outline {
-        background: white;
-        color: #667eea;
-        border: 2px solid #667eea;
-      }
-
-      .episodes-section h2 {
-        margin-bottom: 2rem;
-        color: #333;
-      }
-
-      .episode-card {
-        background: #f8f9fa;
-        border-radius: 12px;
-        padding: 2rem;
-        margin-bottom: 2rem;
-        transition: transform 0.2s, box-shadow 0.2s;
-      }
-
-      .episode-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-      }
-
-      .episode-number {
-        color: #667eea;
-        font-weight: 700;
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-      }
-
-      .episode-title {
-        font-size: 1.5rem;
-        margin: 0.5rem 0;
-        color: #333;
-      }
-
-      .episode-description {
-        color: #666;
-        margin: 1rem 0;
-        line-height: 1.8;
-      }
-
-      .episode-meta {
-        display: flex;
-        gap: 2rem;
-        font-size: 0.9rem;
-        color: #999;
-        margin-bottom: 1rem;
-      }
-
-      .episode-actions {
-        display: flex;
-        gap: 1rem;
-        margin-top: 1.5rem;
-      }
-
-      .btn-small {
-        padding: 0.75rem 1.5rem;
-        font-size: 0.9rem;
-      }
-
-      footer {
-        margin-top: 4rem;
-        padding-top: 2rem;
-        border-top: 2px solid #f0f0f0;
-        text-align: center;
-        color: #999;
-        font-size: 0.9rem;
-      }
-
-      @media (max-width: 768px) {
         body {
-          padding: 1rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
         }
 
         .container {
-          padding: 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid #f0f0f0;
         }
 
         h1 {
-          font-size: 2rem;
+            font-size: 2.5rem;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        .subscribe-section {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .subscribe-section h2 {
+            margin-bottom: 1rem;
+            color: #333;
         }
 
         .subscribe-buttons {
-          flex-direction: column;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #764ba2;
+            color: white;
+        }
+
+        .btn-outline {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        .episodes-section h2 {
+            margin-bottom: 2rem;
+            color: #333;
+        }
+
+        .episode-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .episode-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+
+        .episode-number {
+            color: #667eea;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .episode-title {
+            font-size: 1.5rem;
+            margin: 0.5rem 0;
+            color: #333;
+        }
+
+        .episode-description {
+            color: #666;
+            margin: 1rem 0;
+            line-height: 1.8;
+        }
+
+        .episode-meta {
+            display: flex;
+            gap: 2rem;
+            font-size: 0.9rem;
+            color: #999;
+            margin-bottom: 1rem;
         }
 
         .episode-actions {
-          flex-direction: column;
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
         }
-      }
+
+        .btn-small {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 2px solid #f0f0f0;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subscribe-buttons {
+                flex-direction: column;
+            }
+
+            .episode-actions {
+                flex-direction: column;
+            }
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
-      <header>
-        <h1>🎙️ The Pivot</h1>
-        <p class="tagline">The business and science of drug repurposing</p>
-      </header>
+        <header>
+            <h1>🎙️ The Pivot</h1>
+            <p class="tagline">The business and science of drug repurposing</p>
+        </header>
 
-      <section class="subscribe-section">
-        <h2>Subscribe to the Podcast</h2>
-        <p>Get notified when new episodes are released</p>
-        <div class="subscribe-buttons">
-          <a
-            href="podcast://pascalwhoop.github.io/repurposing-stories/feed.xml"
-            class="btn btn-primary"
-          >
-            🍎 Subscribe in Apple Podcasts
-          </a>
-          <a
-            href="pcast://pascalwhoop.github.io/repurposing-stories/feed.xml"
-            class="btn btn-secondary"
-          >
-            🤖 Subscribe on Android
-          </a>
-          <a href="feed.xml" class="btn btn-outline"> 📡 RSS Feed </a>
-        </div>
-      </section>
-
-      <section class="episodes-section">
-        <h2>Episodes</h2>
-
-        <article class="episode-card">
-          <div class="episode-number">Episode 02</div>
-          <h3 class="episode-title">The Cancer Drug That Rewrote MS</h3>
-          <div class="episode-meta">
-            <span>📅 December 5, 2025</span>
-            <span>⏱️ 45 minutes</span>
-          </div>
-          <p class="episode-description">
-            In 1997, the FDA approved rituximab to kill cancerous B cells in lymphoma patients—it
-            would become one of the best-selling drugs in history, generating over $100 billion in
-            revenue. But within a decade, this cancer drug would accidentally overturn 50 years of
-            scientific consensus about multiple sclerosis, revealing that neurologists had been
-            targeting the wrong immune cells all along. The result: a paradigm shift that
-            transformed MS from a disease of inevitable disability into a manageable condition,
-            giving hundreds of thousands of patients something they&#039;d never had before—hope for
-            a life without relapses. This is the story of how a single 2008 trial showing 91%
-            reduction in MRI lesions stunned the neurology world, spawned a $9 billion annual
-            market, and became the first treatment ever for primary progressive MS.
-          </p>
-          <div class="episode-actions">
-            <a href="episodes/rituximab-ms.mp3" class="btn btn-primary btn-small">
-              ▶️ Play Episode
-            </a>
-            <a href="episodes/rituximab-ms.mp3" download class="btn btn-outline btn-small">
-              ⬇️ Download MP3
-            </a>
-            <a
-              href="https://github.com/pascalwhoop/repurposing-stories/tree/main/stories/pair-rituximab-ms"
-              class="btn btn-outline btn-small"
-              target="_blank"
-            >
-              📚 Show Notes
-            </a>
-          </div>
-        </article>
-
-        <article class="episode-card">
-          <div class="episode-number">Episode 01</div>
-          <h3 class="episode-title">Minoxidil - The Hairy Discovery</h3>
-          <div class="episode-meta">
-            <span>📅 December 5, 2025</span>
-            <span>⏱️ 70 minutes</span>
-          </div>
-          <p class="episode-description">
-            In the late 1950s, Upjohn chemists were hunting for an ulcer cure when they accidentally
-            stumbled upon a blood pressure drug that caused one embarrassing side effect: patients
-            sprouted hair everywhere, like werewolves on medication. Deemed a cosmetic nightmare
-            that caused women to stop their lifesaving hypertension treatment, this &quot;flaw&quot;
-            nearly ended the drug&#039;s commercial viability—until a cardiologist&#039;s casual
-            consultation with a Miami dermatologist transformed it into the world&#039;s first
-            FDA-approved hair loss treatment. What followed was a 15-year patent war, a $200 million
-            blockbuster, and a cultural revolution that legitimized an entire industry of appearance
-            medicine—all because someone paid attention when patients started getting hairy.
-          </p>
-          <div class="episode-actions">
-            <a href="episodes/minoxidil-alopecia.mp3" class="btn btn-primary btn-small">
-              ▶️ Play Episode
-            </a>
-            <a href="episodes/minoxidil-alopecia.mp3" download class="btn btn-outline btn-small">
-              ⬇️ Download MP3
-            </a>
-            <a
-              href="https://github.com/pascalwhoop/repurposing-stories/tree/main/stories/pair-minoxidil-alopecia"
-              class="btn btn-outline btn-small"
-              target="_blank"
-            >
-              📚 Show Notes
-            </a>
-          </div>
-        </article>
-      </section>
-
-      <footer>
-        <!DOCTYPE html>
-        <html lang="en">
-          <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>The Pivot Podcast - Drug Repurposing Stories</title>
-            <style>
-              * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-              }
-
-              body {
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-                  Cantarell, sans-serif;
-                line-height: 1.6;
-                color: #333;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                min-height: 100vh;
-                padding: 2rem;
-              }
-
-              .container {
-                max-width: 900px;
-                margin: 0 auto;
-                background: white;
-                border-radius: 20px;
-                padding: 3rem;
-                box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-              }
-
-              header {
-                text-align: center;
-                margin-bottom: 3rem;
-                padding-bottom: 2rem;
-                border-bottom: 2px solid #f0f0f0;
-              }
-
-              h1 {
-                font-size: 2.5rem;
-                color: #667eea;
-                margin-bottom: 0.5rem;
-              }
-
-              .tagline {
-                font-size: 1.2rem;
-                color: #666;
-                font-style: italic;
-              }
-
-              .subscribe-section {
-                background: #f8f9fa;
-                padding: 2rem;
-                border-radius: 12px;
-                margin-bottom: 3rem;
-                text-align: center;
-              }
-
-              .subscribe-section h2 {
-                margin-bottom: 1rem;
-                color: #333;
-              }
-
-              .subscribe-buttons {
-                display: flex;
-                gap: 1rem;
-                justify-content: center;
-                flex-wrap: wrap;
-                margin-top: 1.5rem;
-              }
-
-              .btn {
-                display: inline-block;
-                padding: 1rem 2rem;
-                border-radius: 8px;
-                text-decoration: none;
-                font-weight: 600;
-                transition: transform 0.2s, box-shadow 0.2s;
-                cursor: pointer;
-              }
-
-              .btn:hover {
-                transform: translateY(-2px);
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-              }
-
-              .btn-primary {
-                background: #667eea;
-                color: white;
-              }
-
-              .btn-secondary {
-                background: #764ba2;
-                color: white;
-              }
-
-              .btn-outline {
-                background: white;
-                color: #667eea;
-                border: 2px solid #667eea;
-              }
-
-              .episodes-section h2 {
-                margin-bottom: 2rem;
-                color: #333;
-              }
-
-              .episode-card {
-                background: #f8f9fa;
-                border-radius: 12px;
-                padding: 2rem;
-                margin-bottom: 2rem;
-                transition: transform 0.2s, box-shadow 0.2s;
-              }
-
-              .episode-card:hover {
-                transform: translateY(-4px);
-                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-              }
-
-              .episode-number {
-                color: #667eea;
-                font-weight: 700;
-                font-size: 0.9rem;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-              }
-
-              .episode-title {
-                font-size: 1.5rem;
-                margin: 0.5rem 0;
-                color: #333;
-              }
-
-              .episode-description {
-                color: #666;
-                margin: 1rem 0;
-                line-height: 1.8;
-              }
-
-              .episode-meta {
-                display: flex;
-                gap: 2rem;
-                font-size: 0.9rem;
-                color: #999;
-                margin-bottom: 1rem;
-              }
-
-              .episode-actions {
-                display: flex;
-                gap: 1rem;
-                margin-top: 1.5rem;
-              }
-
-              .btn-small {
-                padding: 0.75rem 1.5rem;
-                font-size: 0.9rem;
-              }
-
-              footer {
-                margin-top: 4rem;
-                padding-top: 2rem;
-                border-top: 2px solid #f0f0f0;
-                text-align: center;
-                color: #999;
-                font-size: 0.9rem;
-              }
-
-              @media (max-width: 768px) {
-                body {
-                  padding: 1rem;
-                }
-
-                .container {
-                  padding: 1.5rem;
-                }
-
-                h1 {
-                  font-size: 2rem;
-                }
-
-                .subscribe-buttons {
-                  flex-direction: column;
-                }
-
-                .episode-actions {
-                  flex-direction: column;
-                }
-              }
-            </style>
-          </head>
-          <body>
-            <div class="container">
-              <header>
-                <h1>🎙️ The Pivot</h1>
-                <p class="tagline">The business and science of drug repurposing</p>
-              </header>
-
-              <section class="subscribe-section">
-                <h2>Subscribe to the Podcast</h2>
-                <p>Get notified when new episodes are released</p>
-                <div class="subscribe-buttons">
-                  <a
-                    href="podcast://pascalwhoop.github.io/repurposing-stories/feed.xml"
-                    class="btn btn-primary"
-                  >
+        <section class="subscribe-section">
+            <h2>Subscribe to the Podcast</h2>
+            <p>Get notified when new episodes are released</p>
+            <div class="subscribe-buttons">
+                <a href="podcast://pascalwhoop.github.io/repurposing-stories/feed.xml" class="btn btn-primary">
                     🍎 Subscribe in Apple Podcasts
-                  </a>
-                  <a
-                    href="pcast://pascalwhoop.github.io/repurposing-stories/feed.xml"
-                    class="btn btn-secondary"
-                  >
+                </a>
+                <a href="pcast://pascalwhoop.github.io/repurposing-stories/feed.xml" class="btn btn-secondary">
                     🤖 Subscribe on Android
-                  </a>
-                  <a href="feed.xml" class="btn btn-outline"> 📡 RSS Feed </a>
+                </a>
+                <a href="feed.xml" class="btn btn-outline">
+                    📡 RSS Feed
+                </a>
+            </div>
+        </section>
+
+        <section class="episodes-section">
+            <h2>Episodes</h2>
+
+                        <article class="episode-card">
+                <div class="episode-number">Episode 03</div>
+                <h3 class="episode-title">Sirolimus - The Molecule That Refused to Die</h3>
+                <div class="episode-meta">
+                    <span>📅 December 9, 2025</span>
+                    <span>⏱️ 50 minutes</span>
                 </div>
-              </section>
+                <p class="episode-description">
+                    Sirolimus—discovered accidentally on Easter Island in 1972—nearly died as a drug before being resurrected as a transplant immunosuppressant. But its true story began when researchers realized the same molecular mechanism (mTOR dysregulation) explained diseases that seemed unrelated: brain tumors in children with tuberous sclerosis, progressive lung disease in women, vascular malformations in infants, and rare inflammatory syndromes. This is the story of one molecule&#039;s remarkable 50-year journey across disease domains, told through the dedication of researchers like Suren Sehgal who refused to let the molecule die, the power of patients becoming scientists like David Fajgenbaum who decoded his own disease, and the profound impact of understanding biology at the molecular level. From four FDA approvals in TSC to first-ever disease-modifying therapy for LAM to emerging applications in aging and autoimmunity, this episode explores how one pathway can unlock treatment for millions.
+                </p>
+                <div class="episode-actions">
+                    <a href="episodes/sirolimus-multiple.mp3" class="btn btn-primary btn-small">
+                        ▶️ Play Episode
+                    </a>
+                    <a href="episodes/sirolimus-multiple.mp3" download class="btn btn-outline btn-small">
+                        ⬇️ Download MP3
+                    </a>
+                    <a href="https://github.com/pascalwhoop/repurposing-stories/tree/main/stories/pair-sirolimus-multiple" class="btn btn-outline btn-small" target="_blank">
+                        📚 Show Notes
+                    </a>
+                </div>
+            </article>
 
-              <section class="episodes-section">
-                <h2>Episodes</h2>
+            <article class="episode-card">
+                <div class="episode-number">Episode 02</div>
+                <h3 class="episode-title">The Cancer Drug That Rewrote MS</h3>
+                <div class="episode-meta">
+                    <span>📅 December 5, 2025</span>
+                    <span>⏱️ 45 minutes</span>
+                </div>
+                <p class="episode-description">
+                    In 1997, the FDA approved rituximab to kill cancerous B cells in lymphoma patients—it would become one of the best-selling drugs in history, generating over $100 billion in revenue. But within a decade, this cancer drug would accidentally overturn 50 years of scientific consensus about multiple sclerosis, revealing that neurologists had been targeting the wrong immune cells all along. The result: a paradigm shift that transformed MS from a disease of inevitable disability into a manageable condition, giving hundreds of thousands of patients something they&#039;d never had before—hope for a life without relapses. This is the story of how a single 2008 trial showing 91% reduction in MRI lesions stunned the neurology world, spawned a $9 billion annual market, and became the first treatment ever for primary progressive MS.
+                </p>
+                <div class="episode-actions">
+                    <a href="episodes/rituximab-ms.mp3" class="btn btn-primary btn-small">
+                        ▶️ Play Episode
+                    </a>
+                    <a href="episodes/rituximab-ms.mp3" download class="btn btn-outline btn-small">
+                        ⬇️ Download MP3
+                    </a>
+                    <a href="https://github.com/pascalwhoop/repurposing-stories/tree/main/stories/pair-rituximab-ms" class="btn btn-outline btn-small" target="_blank">
+                        📚 Show Notes
+                    </a>
+                </div>
+            </article>
 
-                <article class="episode-card">
-                  <div class="episode-number">Episode 01</div>
-                  <h3 class="episode-title">Minoxidil - The Hairy Discovery</h3>
-                  <div class="episode-meta">
+            <article class="episode-card">
+                <div class="episode-number">Episode 01</div>
+                <h3 class="episode-title">Minoxidil - The Hairy Discovery</h3>
+                <div class="episode-meta">
                     <span>📅 December 5, 2025</span>
                     <span>⏱️ 70 minutes</span>
-                  </div>
-                  <p class="episode-description">
-                    In the late 1950s, Upjohn chemists were hunting for an ulcer cure when they
-                    accidentally stumbled upon a blood pressure drug that caused one embarrassing
-                    side effect: patients sprouted hair everywhere, like werewolves on medication.
-                    Deemed a cosmetic nightmare that caused women to stop their lifesaving
-                    hypertension treatment, this &quot;flaw&quot; nearly ended the drug&#039;s
-                    commercial viability—until a cardiologist&#039;s casual consultation with a
-                    Miami dermatologist transformed it into the world&#039;s first FDA-approved hair
-                    loss treatment. What followed was a 15-year patent war, a $200 million
-                    blockbuster, and a cultural revolution that legitimized an entire industry of
-                    appearance medicine—all because someone paid attention when patients started
-                    getting hairy.
-                  </p>
-                  <div class="episode-actions">
+                </div>
+                <p class="episode-description">
+                    In the late 1950s, Upjohn chemists were hunting for an ulcer cure when they accidentally stumbled upon a blood pressure drug that caused one embarrassing side effect: patients sprouted hair everywhere, like werewolves on medication. Deemed a cosmetic nightmare that caused women to stop their lifesaving hypertension treatment, this &quot;flaw&quot; nearly ended the drug&#039;s commercial viability—until a cardiologist&#039;s casual consultation with a Miami dermatologist transformed it into the world&#039;s first FDA-approved hair loss treatment. What followed was a 15-year patent war, a $200 million blockbuster, and a cultural revolution that legitimized an entire industry of appearance medicine—all because someone paid attention when patients started getting hairy.
+                </p>
+                <div class="episode-actions">
                     <a href="episodes/minoxidil-alopecia.mp3" class="btn btn-primary btn-small">
-                      ▶️ Play Episode
+                        ▶️ Play Episode
                     </a>
-                    <a
-                      href="episodes/minoxidil-alopecia.mp3"
-                      download
-                      class="btn btn-outline btn-small"
-                    >
-                      ⬇️ Download MP3
+                    <a href="episodes/minoxidil-alopecia.mp3" download class="btn btn-outline btn-small">
+                        ⬇️ Download MP3
                     </a>
-                    <a
-                      href="https://github.com/pascalwhoop/repurposing-stories/tree/main/stories/pair-minoxidil-alopecia"
-                      class="btn btn-outline btn-small"
-                      target="_blank"
-                    >
-                      📚 Show Notes
+                    <a href="https://github.com/pascalwhoop/repurposing-stories/tree/main/stories/pair-minoxidil-alopecia" class="btn btn-outline btn-small" target="_blank">
+                        📚 Show Notes
                     </a>
-                  </div>
-                </article>
-              </section>
+                </div>
+            </article>
 
-              <footer>
-                <p>
-                  <strong>Disclaimer:</strong> This podcast is for educational and entertainment
-                  purposes only. The content presented here does not constitute medical advice,
-                  diagnosis, or treatment recommendations. Information about drugs, diseases, and
-                  medical conditions is provided for informational purposes only and should not be
-                  used as a substitute for professional medical advice, diagnosis, or treatment.
-                  Always seek the advice of qualified health providers with any questions you may
-                  have regarding a medical condition. Never disregard professional medical advice or
-                  delay in seeking it because of something you have heard on this podcast.
-                </p>
-                <p style="margin-top: 1rem">
-                  The stories presented are based on historical research and may contain
-                  inaccuracies. This is an experimental project exploring AI-assisted content
-                  creation. The creators, hosts, and contributors assume no liability for any
-                  actions taken based on the information presented in this podcast. All content is
-                  provided "as is" without warranty of any kind.
-                </p>
-                <p style="margin-top: 1rem; font-size: 0.85rem; color: #999">
-                  © 2025 The Pivot Podcast. All rights reserved.
-                </p>
-              </footer>
-            </div>
-          </body>
-        </html>
-      </footer>
+
+        </section>
+
+        <footer>
+            <p>The Pivot Podcast © 2025 | Exploring the fascinating stories of drug repurposing</p>
+        </footer>
     </div>
-  </body>
+</body>
 </html>

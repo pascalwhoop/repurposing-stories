@@ -5,93 +5,97 @@
 
 ---
 
-ELENA [thoughtful] So we've established that tuberous sclerosis complex is caused by mutations in TSC1 or TSC2, which leads to overactive mTOR signaling. And that causes tumors in multiple organs. What did treatment look like before sirolimus?
+ELENA: [thoughtful] So we've established that tuberous sclerosis complex is caused by mutations in TSC1 or TSC2, which leads to overactive mTOR signaling. And that causes tumors in multiple organs. What did treatment look like before sirolimus?
 
-MARCUS [concerned] It was reactive. Surgery for brain tumors. Embolization or surgery for kidney tumors that were bleeding. Multiple anti-seizure medications, often with limited success. Dermatologic treatments for skin lesions. Clinicians were managing symptoms and complications, but they weren't treating the underlying disease.
+MARCUS: [concerned] It was reactive. Surgery for brain tumors. Embolization or surgery for kidney tumors that were bleeding. Multiple anti-seizure medications, often with limited success. Dermatologic treatments for skin lesions. Clinicians were managing symptoms and complications, but they weren't treating the underlying disease.
 
-ELENA [reflective] They were putting out fires, not addressing the cause.
+ELENA: [reflective] They were putting out fires, not addressing the cause.
 
-MARCUS [passionate] Exactly. And for families, that was devastating. Imagine your child has TSC. By age five, they might have had brain surgery, multiple hospitalizations for seizures, kidney procedures. And you know the disease will keep progressing.
+MARCUS: [passionate] Exactly. And for families, that was devastating. Imagine your child has TSC. By age five, they might have had brain surgery, multiple hospitalizations for seizures, kidney procedures. And you know the disease will keep progressing.
 
-ELENA [urgent] So when researchers proposed testing sirolimus—testing the hypothesis that inhibiting mTOR could actually slow or reverse these manifestations—what was the response?
+ELENA: [urgent] So when researchers proposed testing sirolimus—testing the hypothesis that inhibiting mTOR could actually slow or reverse these manifestations—what was the response?
 
-MARCUS [warm] Hope mixed with caution. This was a novel idea. Using a mechanism-based therapy for a genetic disease. And it required rigorous testing. That's where David Franz and the EXIST trial consortium came in.
+MARCUS: [warm] Hope mixed with caution. This was a novel idea. Using a mechanism-based therapy for a genetic disease. And it required rigorous testing. That's where David Franz and the EXIST trial consortium came in.
 
-ELENA [curious] Walk me through the trials. What were they testing first?
+ELENA: [curious] Walk me through the trials. What were they testing first?
 
-MARCUS [excited] EXIST-1 focused on SEGAs—subependymal giant cell astrocytomas. These are brain tumors that develop in about 10 to 20 percent of TSC patients, usually in childhood. They grow near the ventricles, the fluid-filled spaces in the brain. And when they get big enough, they block the flow of cerebrospinal fluid, causing hydrocephalus—increased pressure in the brain.
+MARCUS: [excited] EXIST-1 focused on SEGAs—subependymal giant cell astrocytomas. These are brain tumors that develop in about 10 to 20 percent of TSC patients, usually in childhood.
 
-ELENA [concerned] That sounds life-threatening.
+ELENA: [curious] Where do they grow?
 
-MARCUS [urgent] It is. Before everolimus—the version of sirolimus used in these trials—the only option was surgery. Brain surgery in young children. High risk. And even after surgery, tumors could recur.
+MARCUS: [concerned] Near the ventricles, the fluid-filled spaces in the brain. And when they get big enough, they block the flow of cerebrospinal fluid, causing hydrocephalus—increased pressure in the brain.
 
-ELENA [hopeful] So what did EXIST-1 show?
+ELENA: [urgent] That sounds life-threatening.
 
-MARCUS [passionate] The trial enrolled 117 patients with SEGAs. They were randomized to everolimus or placebo. The primary endpoint was tumor response—at least a 50% reduction in tumor volume. And the results were striking: 34.6% of patients on everolimus had a tumor response. Zero percent on placebo.
+MARCUS: [passionate] It is. Before everolimus—the version of sirolimus used in these trials—the only option was surgery. Brain surgery in young children. High risk. And even after surgery, tumors could recur.
 
-ELENA [excited] Zero versus 34.6%? That's not subtle.
+ELENA: [hopeful] So what did EXIST-1 show?
 
-MARCUS [warm] It wasn't. And beyond shrinking tumors, many patients had seizure improvements. Quality of life improved. Kids who were facing brain surgery could avoid it. The results were published in The Lancet in 2013, and the FDA approved everolimus for SEGAs in 2012.
+MARCUS: [passionate] The trial enrolled 117 patients with SEGAs. They were randomized to everolimus or placebo. The primary endpoint was tumor response—at least a 50% reduction in tumor volume. And the results were striking: 34.6% of patients on everolimus had a tumor response. Zero percent on placebo.
 
-ELENA [reflective] So that's one manifestation of TSC. What about the kidneys?
+ELENA: [excited] Zero versus 34.6%? That's not subtle.
 
-MARCUS [thoughtful] That's EXIST-2. About 80% of TSC patients develop angiomyolipomas—AMLs—in their kidneys. These are benign tumors composed of blood vessels, smooth muscle, and fat. They can grow large, and the biggest risk is hemorrhage—spontaneous bleeding that can be life-threatening.
+MARCUS: [warm] It wasn't. And beyond shrinking tumors, many patients had seizure improvements. Quality of life improved. Kids who were facing brain surgery could avoid it. The results were published in The Lancet in 2013, and the FDA approved everolimus for SEGAs in 2012.
 
-ELENA [concerned] So before everolimus, what was done?
+ELENA: [reflective] So that's one manifestation of TSC. What about the kidneys?
 
-MARCUS [urgent] Surveillance. Imaging every year or two. And if a tumor grew beyond 3 or 4 centimeters, you'd consider embolization—blocking the blood supply—or surgery. But these interventions have risks, and tumors can recur.
+MARCUS: [thoughtful] That's EXIST-2. About 80% of TSC patients develop angiomyolipomas—AMLs—in their kidneys. These are benign tumors composed of blood vessels, smooth muscle, and fat. They can grow large, and the biggest risk is hemorrhage—spontaneous bleeding that can be life-threatening.
 
-ELENA [curious] And EXIST-2?
+ELENA: [concerned] So before everolimus, what was done?
 
-MARCUS [excited] 118 patients with AMLs of at least 3 centimeters. Randomized to everolimus or placebo. The results: 41.8% tumor response with everolimus versus 0% with placebo. And crucially, the treatment prevented hemorrhages and avoided the need for surgery in many patients.
+MARCUS: [urgent] Surveillance. Imaging every year or two. And if a tumor grew beyond 3 or 4 centimeters, you'd consider embolization—blocking the blood supply—or surgery. But these interventions have risks, and tumors can recur.
 
-ELENA [hopeful] So again—mechanism-based therapy working as predicted.
+ELENA: [curious] And EXIST-2?
 
-MARCUS [passionate] Exactly. This was published in The Lancet in 2013, and the FDA approved everolimus for TSC-associated renal angiomyolipomas in 2012. Two FDA approvals in one year for the same drug in the same disease. That had never been done before.
+MARCUS: [excited] 118 patients with AMLs of at least 3 centimeters. Randomized to everolimus or placebo. The results: 41.8% tumor response with everolimus versus 0% with placebo. And crucially, the treatment prevented hemorrhages and avoided the need for surgery in many patients.
 
-ELENA [intrigued] But the most devastating part of TSC for many families is the seizures, right?
+ELENA: [hopeful] So again—mechanism-based therapy working as predicted.
 
-MARCUS [concerned] Yes. About 80% of TSC patients develop epilepsy. And in 30 to 60% of those patients, the seizures are drug-resistant. Meaning they don't respond to standard anti-seizure medications.
+MARCUS: [passionate] Exactly. This was published in The Lancet in 2013, and the FDA approved everolimus for TSC-associated renal angiomyolipomas in 2012. Two FDA approvals in one year for the same drug in the same disease. That had never been done before.
 
-ELENA [reflective] That's heartbreaking. Seizures that can't be controlled.
+ELENA: [intrigued] But the most devastating part of TSC for many families is the seizures, right?
 
-MARCUS [urgent] It is. And for young children, uncontrolled seizures impair development. Cognitive delays. Behavioral problems. Families live in constant fear of the next seizure.
+MARCUS: [concerned] Yes. About 80% of TSC patients develop epilepsy. And in 30 to 60% of those patients, the seizures are drug-resistant. Meaning they don't respond to standard anti-seizure medications.
 
-ELENA [curious] So EXIST-3 tested whether everolimus could help with seizures?
+ELENA: [reflective] That's heartbreaking. Seizures that can't be controlled.
 
-MARCUS [passionate] Yes. This was the largest of the EXIST trials—366 patients with treatment-resistant seizures. The primary endpoint was the percentage of patients who had at least a 50% reduction in seizure frequency. And the results: 39.6% of patients on everolimus hit that mark, compared to 14.9% on placebo.
+MARCUS: [urgent] It is. And for young children, uncontrolled seizures impair development. Cognitive delays. Behavioral problems. Families live in constant fear of the next seizure.
 
-ELENA [hopeful] So everolimus nearly tripled the response rate?
+ELENA: [curious] So EXIST-3 tested whether everolimus could help with seizures?
 
-MARCUS [excited] It did. And there was a bonus finding—some patients had improvements in cognition and behavior. Not just fewer seizures, but better quality of life. The trial was published in The Lancet in 2016, and the FDA approved everolimus for TSC-associated seizures in 2018.
+MARCUS: [passionate] Yes. This was the largest of the EXIST trials—366 patients with treatment-resistant seizures. The primary endpoint was the percentage of patients who had at least a 50% reduction in seizure frequency. And the results: 39.6% of patients on everolimus hit that mark, compared to 14.9% on placebo.
 
-ELENA [warm] Three FDA approvals. Three different manifestations of the same disease. All from understanding one pathway.
+ELENA: [hopeful] So everolimus nearly tripled the response rate?
 
-MARCUS [reflective] Exactly. And there's even a fourth indication—topical sirolimus for facial angiofibromas, the skin lesions that affect about 75% of TSC patients. A Japanese study showed that topical sirolimus gel significantly reduced lesion volume. That was published in JAMA Dermatology in 2018.
+MARCUS: [excited] It did. And there was a bonus finding—some patients had improvements in cognition and behavior. Not just fewer seizures, but better quality of life. The trial was published in The Lancet in 2016, and the FDA approved everolimus for TSC-associated seizures in 2018.
 
-ELENA [curious] So you can target the pathway systemically with oral everolimus, or locally with topical sirolimus?
+ELENA: [warm] Three FDA approvals. Three different manifestations of the same disease. All from understanding one pathway.
 
-MARCUS [passionate] Yes! This is the beauty of mechanism-based medicine. You understand the pathway, you have a drug that targets it, and you can apply it in multiple ways for multiple manifestations.
+MARCUS: [reflective] Exactly. And there's even a fourth indication—topical sirolimus for facial angiofibromas, the skin lesions that affect about 75% of TSC patients. A Japanese study showed that topical sirolimus gel significantly reduced lesion volume. That was published in JAMA Dermatology in 2018.
 
-ELENA [thoughtful] Marcus, I want to pause here and make sure we honor the patient experience. What was it like for families going through these trials?
+ELENA: [curious] So you can target the pathway systemically with oral everolimus, or locally with topical sirolimus?
 
-MARCUS [reverential] That's a critical question. For many families, enrolling in EXIST trials was both hopeful and terrifying. They'd been through years of surgeries, hospitalizations, failed medications. And now they were being offered something experimental—something that might work, or might not.
+MARCUS: [passionate] Yes! This is the beauty of mechanism-based medicine. You understand the pathway, you have a drug that targets it, and you can apply it in multiple ways for multiple manifestations.
 
-ELENA [warm] And they took the chance.
+ELENA: [thoughtful] Marcus, I want to pause here and make sure we honor the patient experience. What was it like for families going through these trials?
 
-MARCUS [passionate] They did. And for many, the results were transformative. A mother whose son had his first seizure-free month in years after starting everolimus. A child whose brain tumor shrank, avoiding surgery. A young adult who could finally stop worrying about kidney hemorrhages.
+MARCUS: [reverential] That's a critical question. For many families, enrolling in EXIST was both hopeful and terrifying. They'd been through years of surgeries, hospitalizations, failed medications. And now they were being offered something experimental.
 
-ELENA [reflective] These weren't just clinical trial data points. These were lives changed.
+ELENA: [warm] Something that might work, or might not.
 
-MARCUS [thoughtful] Exactly. And the researchers—David Franz, Darcy Krueger, the entire TSC Alliance—they weren't just scientists. They were advocates for these patients. They fought for funding, for trial enrollment, for FDA approval. They believed that understanding mechanism could change lives, and they were right.
+MARCUS: [passionate] Exactly. And for many, the results were transformative. One mother described her son having his first seizure-free month in years after starting everolimus. Children whose brain tumors shrank, avoiding surgery. Young adults who could finally stop worrying about kidney hemorrhages.
 
-ELENA [hopeful] So TSC became the proof-of-concept for precision medicine?
+ELENA: [reflective] These weren't just data points. These were lives changed.
 
-MARCUS [excited] It did. Genetic defect identified. Pathway dysregulation understood. Drug repurposed. Multiple FDA approvals. This is the model. And once TSC showed it could work, researchers started looking at other diseases where mTOR was dysregulated.
+MARCUS: [thoughtful] Exactly. And the researchers—David Franz, Darcy Krueger, the entire TSC Alliance—they weren't just scientists. They were advocates for these patients. They fought for funding, for trial enrollment, for FDA approval. They believed that understanding mechanism could change lives, and they were right.
 
-ELENA [curious] Like lymphangioleiomyomatosis—LAM.
+ELENA: [hopeful] So TSC became the proof-of-concept for precision medicine?
 
-MARCUS [warm] Exactly. LAM is a progressive lung disease that affects primarily women. And it also involves TSC1/TSC2 mutations in some patients. Let's dive into that story next, because it shows how the TSC insights extended to another devastating condition.
+MARCUS: [excited] It did. Genetic defect identified. Pathway dysregulation understood. Drug repurposed. Multiple FDA approvals. This is the model. And once TSC showed it could work, researchers started looking at other diseases where mTOR was dysregulated.
+
+ELENA: [curious] Like lymphangioleiomyomatosis—LAM.
+
+MARCUS: [warm] Exactly. LAM is a progressive lung disease that affects primarily women. And it also involves TSC1/TSC2 mutations in some patients. Let's dive into that story next, because it shows how the TSC insights extended to another devastating condition.
 
 ---
 

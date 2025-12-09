@@ -20,5 +20,16 @@
     "duration_seconds": 2707,
     "mp3_filename": "rituximab-ms.mp3",
     "source_mp3": "full-episode.mp3"
+  },
+  {
+    "episode_number": 3,
+    "drug": "sirolimus",
+    "disease": "multiple",
+    "title": "Sirolimus - The Molecule That Refused to Die",
+    "description": "Sirolimus—discovered accidentally on Easter Island in 1972—nearly died as a drug before being resurrected as a transplant immunosuppressant. But its true story began when researchers realized the same molecular mechanism (mTOR dysregulation) explained diseases that seemed unrelated: brain tumors in children with tuberous sclerosis, progressive lung disease in women, vascular malformations in infants, and rare inflammatory syndromes. This is the story of one molecule's remarkable 50-year journey across disease domains, told through the dedication of researchers like Suren Sehgal who refused to let the molecule die, the power of patients becoming scientists like David Fajgenbaum who decoded his own disease, and the profound impact of understanding biology at the molecular level. From four FDA approvals in TSC to first-ever disease-modifying therapy for LAM to emerging applications in aging and autoimmunity, this episode explores how one pathway can unlock treatment for millions.",
+    "pub_date": "December 9, 2025",
+    "duration_seconds": 3016,
+    "mp3_filename": "sirolimus-multiple.mp3",
+    "source_mp3": "full-episode.mp3"
   }
 ]
