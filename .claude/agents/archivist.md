@@ -48,10 +48,42 @@ not a blogpost.
 
 ## Output Format
 
-Write all content you find into `stories/pair-<drug>-<disease>/background/` directory with the
-following structure:
+Write content into TWO locations:
 
--   `dossier-overview.md` - Executive summary of all sections
+### 1. Public-Facing Summary (Root Level)
+
+**File**: `stories/pair-<drug>-<disease>/README.md`
+
+This is a **one-page executive summary** for general audiences who prefer reading over listening to
+the podcast. Write in an accessible, engaging style suitable for:
+- Linking from the website
+- Sharing on social media
+- Quick reference for non-technical readers
+
+**Structure:**
+- **Title**: "[Drug Name] for [Disease]: A Drug Repurposing Story"
+- **The Story in Brief** (2-3 paragraphs): Compelling narrative arc from original use to repurposed success
+- **Why It Matters** (1-2 paragraphs): Significance for patients, medicine, and drug repurposing
+- **Key Facts** (bulleted):
+  - Original use and approval year
+  - Repurposed use and approval/adoption year
+  - The pivotal discovery moment (who, when, how)
+  - Impact metrics (patients helped, sales, regulatory status)
+- **The Lesson** (1 paragraph): What this story teaches us about drug repurposing
+- **Learn More**: Link to podcast episode and background research
+
+**Tone**: Accessible but credible. Think *New York Times Science section* or *NPR health story*,
+not academic paper. Use analogies, human stories, and clear language. Avoid jargon unless explained.
+
+**Length**: 400-600 words (truly one page)
+
+### 2. Detailed Technical Dossier (Background Directory)
+
+**Location**: `stories/pair-<drug>-<disease>/background/`
+
+This is the comprehensive research for podcast production. Be detailed and technical:
+
+-   `dossier-overview.md` - Executive summary of all sections (can be more technical)
 -   `01-context.md` - The Era
 -   `02-origin.md` - The Intended Use
 -   `03-struggle.md` - The Failure
