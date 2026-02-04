@@ -1,45 +1,46 @@
 # Objective
 
-Create engaging podcast transcripts for drug repurposing stories. You are the manager for a 5-step
-production workflow using dedicated subagents for each step.
+Create engaging podcast transcripts for drug repurposing stories using an automated production
+pipeline orchestrated by a Claude Skill.
 
 ## The Production Pipeline
 
-The workflow uses specialized agents found in `.claude/agents/`:
+The workflow uses the **podcast-producer skill** to automatically orchestrate specialized agents
+found in `.claude/agents/`:
 
 1. **[Archivist](./.claude/agents/archivist.md)** – Research & Deep Dive Dossier
-
-    - Gathers canonical information from primary sources (clinical trials, patents, scientific
-      biographies)
+    - Gathers canonical information from primary sources (clinical trials, patents, scientific biographies)
     - Outputs: Organized background files in `stories/pair-<drug>-<disease>/background/`
 
 2. **[Showrunner](./.claude/agents/showrunner.md)** – Structure & Show Notes
-
     - Transforms raw dossier into podcast narrative architecture
     - Creates episode outline, themes, and grading criteria
     - Outputs: Episode structure and show notes in `stories/pair-<drug>-<disease>/shownotes/`
 
 3. **[Podcast Writer](./.claude/agents/podcast-writer.md)** – Scripting & Dialogue
-
     - Generates dual-host conversation scripts (Marcus & Elena)
     - Ensures equal speaker distribution with varied emotional tags
     - Formatted for ElevenLabs podcast API
     - Outputs: Multi-section transcripts in `stories/pair-<drug>-<disease>/transcript/`
 
 4. **[Editor](./.claude/agents/editor.md)** – Final Editorial Pass
-
     - Ensures story flows cohesively with proper arc and pacing
     - Identifies and fixes transitions, duplication, and narrative issues
     - Focuses on big-picture story structure
     - Outputs: Edited transcripts + editorial memo
 
 5. **[Speaker](./.claude/agents/speaker.md)** – Audio Generation & TTS
-
     - Generates audio from completed transcripts
     - Uses Google Gemini TTS API
     - Outputs: MP3 file in `stories/pair-<drug>-<disease>/transcript/*.mp3`
 
-6. **[Publisher](./.claude/agents/publisher.md)** – Website Update & Git Publishing
+6. **[Feedback](./.claude/agents/feedback.md)** – Continuous Quality Improvement
+    - Analyzes listener feedback from completed episodes
+    - Updates agent instructions to improve future episodes
+    - Tracks quality improvements over time
+    - Outputs: Updated agent instructions + improvement log
+
+7. **[Publisher](./.claude/agents/publisher.md)** – Website Update & Git Publishing _(manual step)_
     - Publishes episodes to the static website
     - Updates RSS feed and website homepage
     - Creates git branch and pull request for deployment
@@ -47,30 +48,79 @@ The workflow uses specialized agents found in `.claude/agents/`:
 
 ## Getting Started
 
-To create a new episode for a drug-disease pair:
+### Single Episode Production (Automatic)
+
+The podcast-producer skill orchestrates the entire pipeline automatically:
 
 ```bash
-# Step 1: Research phase
-/invoke-agent archivist --drug="<drug>" --disease="<disease>"
+# Simple invocation - skill handles everything
+Create an episode for [Drug] and [Disease]
 
-# Step 2: Structure phase
-/invoke-agent showrunner --pair="pair-<drug>-<disease>"
+# Examples:
+Create an episode for Aspirin and Cardiovascular Disease Prevention
+Produce the Metformin PCOS episode
+Generate podcast for Ketamine treating Depression
+```
 
-# Step 3: Script phase
-/invoke-agent podcast-writer --pair="pair-<drug>-<disease>"
+The skill will:
+1. Run all 5 agents sequentially (archivist → showrunner → podcast-writer → editor → speaker)
+2. Verify each agent's output
+3. Commit work to git (no push)
+4. Report completion or create error file with TODO marker
 
-# Step 4: Edit phase
-/invoke-agent editor --pair="pair-<drug>-<disease>"
+### Batch Production
 
-# Step 5: Audio phase
-/invoke-agent speaker --pair="pair-<drug>-<disease>"
+Use the batch script to produce multiple episodes:
 
-# Step 6: Publish phase
+```bash
+# Interactive mode - prints commands to run manually
+./batch_produce_episodes.sh
+
+# Automatic mode - runs all episodes overnight
+./batch_produce_episodes.sh --auto
+```
+
+The script contains 27 pending episodes from `stories/pairs_gemini.md`.
+
+### Partial Production (Advanced)
+
+Stop at a specific step:
+```bash
+Create an episode for Aspirin and Cardiovascular Disease, but stop after showrunner
+Only run archivist for Metformin and PCOS
+```
+
+Resume from a specific step:
+```bash
+Continue podcast production for Aspirin and Cardiovascular Disease from editor step
+```
+
+Re-run a single agent:
+```bash
+Regenerate audio for Aspirin and Cardiovascular Disease
+Re-run the podcast-writer for Metformin and PCOS
+```
+
+### Quality Improvement Workflow
+
+After completing 2-3 episodes:
+
+1. Collect listener feedback in `stories/pair-<drug>-<disease>/feedback.md`
+2. Run feedback agent to analyze patterns and update instructions
+3. Future episodes benefit from improved agent instructions
+
+The feedback agent is run separately, not as part of the automatic pipeline.
+
+### Publishing (Manual)
+
+After reviewing the episode audio:
+
+```bash
+# Run publisher agent separately
 /invoke-agent publisher --drug="<drug>" --disease="<disease>"
 ```
 
-Each agent reads the outputs from the previous step and builds upon them, creating a cohesive
-workflow from research to publication.
+This creates a PR with website updates ready for deployment.
 
 ## Maintenance mode
 
