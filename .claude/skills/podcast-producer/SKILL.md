@@ -261,19 +261,163 @@ If user wants to re-run a single agent:
 
 Then run only that agent, potentially overwriting previous output.
 
-## Quality Checks
+## Quality Checks & Cleanup
 
-After each agent completes, verify:
-- Files were created in expected locations
-- Files have substantial content (not empty or error messages)
-- Required directory structure exists
-- Citations and sources are present (for archivist)
-- Timing and structure are specified (for showrunner)
-- Speaker balance is maintained (for podcast-writer)
-- No critical issues flagged (for editor)
-- Audio file is valid (for speaker)
+After each agent completes, perform verification and automatic cleanup:
 
-If verification fails, treat as agent failure and follow error handling process.
+### Verification Process
+
+1. **Check expected files exist** (see checklists below)
+2. **Check file content** (not empty, no error messages)
+3. **Detect file structure violations** (wrong names, wrong locations)
+4. **Automatically fix common mistakes** (rename, move files)
+5. **Report what was cleaned up** to user
+
+### Agent-Specific Checks & Cleanup
+
+#### After Archivist
+
+**Expected files (9 total):**
+```bash
+README.md
+background/00-dossier-overview.md
+background/01-context.md
+background/02-origin.md
+background/03-struggle.md
+background/04-pivot-point.md
+background/05-renaissance.md
+background/06-mechanism.md
+background/07-impact.md
+```
+
+**Common mistakes to auto-fix:**
+- `background/00-summary.md` → rename to `00-dossier-overview.md`
+- `background/01-context-era.md` → rename to `01-context.md`
+- `background/02-origin-intended-use.md` → rename to `02-origin.md`
+- `background/03-struggle-failure.md` → rename to `03-struggle.md`
+- `background/dossier-overview.md` → rename to `00-dossier-overview.md`
+
+**Verification:**
+- All 9 files exist
+- README.md is 400-600 words
+- Background files cite sources
+
+#### After Showrunner
+
+**Expected files (5 total in shownotes/):**
+```bash
+shownotes/00-episode-structure.md
+shownotes/01-cold-open.md
+shownotes/02-narrative-arc.md
+shownotes/03-playbook.md
+shownotes/04-grading-criteria.md
+```
+
+**Common mistakes to auto-fix:**
+- `episode-structure.md` at root → move to `shownotes/00-episode-structure.md`
+- `shownotes/EPISODE_STRUCTURE.md` → rename to `00-episode-structure.md`
+- `shownotes/02-chapter-outline.md` → rename to `02-narrative-arc.md`
+- Duplicate files (e.g., both `EPISODE_STRUCTURE.md` and `01-episode-structure.md`) → keep numbered one, delete duplicate
+
+**Verification:**
+- All 5 files exist in shownotes/
+- Episode structure has timing information
+- Grading criteria has weighted rubrics
+
+#### After Podcast-writer
+
+**Expected files (9 total in transcript/):**
+```bash
+transcript/01-cold-open.md
+transcript/02-context.md
+transcript/03-origin.md
+transcript/04-struggle.md
+transcript/05-pivot-point.md
+transcript/06-renaissance.md
+transcript/07-impact.md
+transcript/08-playbook.md
+transcript/09-grading.md
+```
+
+**Common mistakes to auto-fix:**
+- `transcript/02-chapter1-wrong-target.md` → rename to `02-context.md`
+- `transcript/easter-island.md` → rename based on position to appropriate chapter
+- Story-specific names → standardize to chapter names
+- Missing files → flag as error (can't auto-fix dialogue content)
+
+**Verification:**
+- All 9 files exist in transcript/
+- Each file has MARCUS: and ELENA: speakers
+- Speaker distribution roughly balanced (45-55%)
+
+#### After Editor
+
+**Expected files (1 new file):**
+```bash
+EDITORIAL_NOTES.md
+```
+
+**Common mistakes to auto-fix:**
+- `00-EDITORIAL-NOTES.md` → rename to `EDITORIAL_NOTES.md`
+- `EDITORIAL_SUMMARY.md` → rename to `EDITORIAL_NOTES.md`
+- `editorial-notes.md` → rename to `EDITORIAL_NOTES.md` (uppercase)
+
+**Verification:**
+- EDITORIAL_NOTES.md exists at root
+- Contains summary of changes made
+
+#### After Speaker
+
+**Expected files (1 audio file):**
+```bash
+transcript/<drug>-full-episode.mp3
+```
+
+**Common mistakes to auto-fix:**
+- `transcript/full-episode.mp3` → rename to `<drug>-full-episode.mp3`
+- `transcript/episode.mp3` → rename to `<drug>-full-episode.mp3`
+- `transcript/<drug>-<disease>-full-episode.mp3` → rename to `<drug>-full-episode.mp3`
+
+**Verification:**
+- MP3 file exists
+- File size > 1MB (has actual content)
+
+### Cleanup Actions
+
+When issues are detected, automatically:
+
+1. **Rename files** with wrong names:
+   ```bash
+   mv "old-name.md" "correct-name.md"
+   ```
+
+2. **Move files** to correct locations:
+   ```bash
+   mv "episode-structure.md" "shownotes/00-episode-structure.md"
+   ```
+
+3. **Delete duplicate files**:
+   ```bash
+   rm "EPISODE_STRUCTURE.md"  # Keep the numbered version
+   ```
+
+4. **Report cleanup** to user:
+   ```
+   ✓ Cleaned up file structure after [Agent] completed:
+     - Renamed: background/00-summary.md → 00-dossier-overview.md
+     - Moved: episode-structure.md → shownotes/00-episode-structure.md
+     - Deleted duplicate: EPISODE_STRUCTURE.md
+   ```
+
+### When Cleanup Cannot Fix
+
+If issues cannot be auto-fixed, treat as agent failure:
+- Missing required files
+- Empty or corrupted files
+- Files with error messages instead of content
+- Fundamental structural problems
+
+Follow the error handling process and create PRODUCTION_ERROR.md.
 
 ## Agent Configuration
 
