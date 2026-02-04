@@ -90,25 +90,38 @@ uv run transcript_to_audio.py stories/pair-<drug>-<disease>/transcript \
 
 ### Step 5: Verify Audio Output
 
+**CRITICAL**: The final MP3 must follow this naming convention:
+- Format: `<drug>-full-episode.mp3`
+- Location: `stories/pair-<drug>-<disease>/transcript/`
+- Example: `aspirin-full-episode.mp3`
+
 After generation completes, verify:
 
 ```bash
 # Check that the final MP3 was created
-ls -lh stories/pair-<drug>-<disease>/transcript/full-episode.mp3
+ls -lh stories/pair-<drug>-<disease>/transcript/<drug>-full-episode.mp3
 ```
 
 Expected output:
-
--   MP3 file at `stories/pair-<drug>-<disease>/transcript/full-episode.mp3`
+-   MP3 file with drug name prefix (e.g., `aspirin-full-episode.mp3`)
 -   File size: 20-50 MB depending on duration
 -   Duration: Typically 30-60 minutes for full episode
+
+### Naming Rules - DO NOT VIOLATE
+
+❌ **DO NOT** use:
+- `full-episode.mp3` (missing drug name)
+- `<drug>-<disease>-full-episode.mp3` (too long, disease not needed)
+- `episode.mp3` (too generic)
+
+✅ **DO**: Use format `<drug>-full-episode.mp3` exactly
 
 ## Success Criteria
 
 ✅ Audio generation complete when:
-
 -   All `*.wav` files generated (one per transcript section)
--   `full-episode.mp3` created in transcript directory
+-   `<drug>-full-episode.mp3` created in transcript directory
 -   No errors in final summary
+-   File has non-zero size
 
 Ready for the Publisher agent to deploy!

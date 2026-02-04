@@ -48,49 +48,59 @@ not a blogpost.
 
 ## Output Format
 
-Write content into TWO locations:
+**CRITICAL**: You must create EXACTLY 9 files following the standard structure defined in
+`FILE_STRUCTURE_STANDARD.md`. Do not deviate from these filenames or locations.
 
-### 1. Public-Facing Summary (Root Level)
+### File Checklist (REQUIRED)
 
-**File**: `stories/pair-<drug>-<disease>/README.md`
+Create these files in this exact order:
 
-This is a **one-page executive summary** for general audiences who prefer reading over listening to
-the podcast. Write in an accessible, engaging style suitable for:
-- Linking from the website
-- Sharing on social media
-- Quick reference for non-technical readers
+#### At Root Level (1 file):
+1. ✅ `stories/pair-<drug>-<disease>/README.md` - Public-facing one-page summary
+
+#### In background/ Directory (8 files):
+2. ✅ `background/00-dossier-overview.md` - Technical executive summary
+3. ✅ `background/01-context.md` - The Era
+4. ✅ `background/02-origin.md` - The Intended Use
+5. ✅ `background/03-struggle.md` - The Failure (brief if no failure occurred)
+6. ✅ `background/04-pivot-point.md` - The Discovery
+7. ✅ `background/05-renaissance.md` - Regulatory & Business
+8. ✅ `background/06-mechanism.md` - Mechanism of Action
+9. ✅ `background/07-impact.md` - Financial and Cultural Impact
+
+### File Content Requirements
+
+#### README.md (Public-Facing Summary)
+**Purpose**: One-page executive summary for general audiences
 
 **Structure:**
 - **Title**: "[Drug Name] for [Disease]: A Drug Repurposing Story"
-- **The Story in Brief** (2-3 paragraphs): Compelling narrative arc from original use to repurposed success
-- **Why It Matters** (1-2 paragraphs): Significance for patients, medicine, and drug repurposing
+- **The Story in Brief** (2-3 paragraphs): Narrative arc from original to repurposed use
+- **Why It Matters** (1-2 paragraphs): Significance for patients and medicine
 - **Key Facts** (bulleted):
   - Original use and approval year
   - Repurposed use and approval/adoption year
   - The pivotal discovery moment (who, when, how)
   - Impact metrics (patients helped, sales, regulatory status)
-- **The Lesson** (1 paragraph): What this story teaches us about drug repurposing
-- **Learn More**: Link to podcast episode and background research
+- **The Lesson** (1 paragraph): What this teaches us about drug repurposing
+- **Learn More**: Link to podcast and research
 
-**Tone**: Accessible but credible. Think *New York Times Science section* or *NPR health story*,
-not academic paper. Use analogies, human stories, and clear language. Avoid jargon unless explained.
+**Tone**: NYT Science / NPR health story (accessible but credible)
+**Length**: 400-600 words
 
-**Length**: 400-600 words (truly one page)
+#### background/ Files (Technical Dossier)
+Detailed research for podcast production. Be specific, technical, and cite sources.
 
-### 2. Detailed Technical Dossier (Background Directory)
+### Naming Rules - DO NOT VIOLATE
 
-**Location**: `stories/pair-<drug>-<disease>/background/`
+❌ **DO NOT** use these incorrect names:
+- `00-summary.md` (use `00-dossier-overview.md`)
+- `01-context-era.md` (use `01-context.md`)
+- `02-origin-intended-use.md` (use `02-origin.md`)
+- `03-struggle-failure.md` (use `03-struggle.md`)
+- Any story-specific names in filenames
 
-This is the comprehensive research for podcast production. Be detailed and technical:
-
--   `dossier-overview.md` - Executive summary of all sections (can be more technical)
--   `01-context.md` - The Era
--   `02-origin.md` - The Intended Use
--   `03-struggle.md` - The Failure
--   `04-pivot-point.md` - The Discovery
--   `05-renaissance.md` - Regulatory & Business
--   `06-mechanism.md` - Mechanism of Action
--   `07-impact.md` - Financial and Cultural Impact
+✅ **DO** use exact names from checklist above
 
 ## Research Guidelines
 

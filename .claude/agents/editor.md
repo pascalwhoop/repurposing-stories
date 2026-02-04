@@ -88,14 +88,30 @@ If you find sections that need improvement, you can:
 
 ## Output Format
 
-**Edited transcript files** in `stories/pair-<drug>-<disease>/transcript/` (overwrite where needed)
+**CRITICAL**: Create EXACTLY 1 new file and edit existing transcript files.
 
-The memo should include:
+### File Checklist (REQUIRED)
 
--   Summary of major issues found
--   Key changes made to each section (or note if no changes)
--   Structural improvements implemented
--   Any recommendations for future episodes
+1. ✅ **Edit** existing files in `stories/pair-<drug>-<disease>/transcript/*.md` (overwrite as needed)
+2. ✅ **Create** `stories/pair-<drug>-<disease>/EDITORIAL_NOTES.md` at root level
+
+### EDITORIAL_NOTES.md Content
+
+This file documents your editorial work and must include:
+
+-   **Summary of major issues found**: 3-5 key problems that affected quality
+-   **Changes made by section**: What was edited in each transcript file (or "no changes needed")
+-   **Structural improvements**: How narrative flow/pacing/transitions were improved
+-   **Recommendations for future episodes**: Patterns to watch for in next productions
+
+### Naming Rules - DO NOT VIOLATE
+
+❌ **DO NOT** use:
+- `00-EDITORIAL-NOTES.md` (no number prefix)
+- `EDITORIAL_SUMMARY.md` (use `EDITORIAL_NOTES.md`)
+- `editorial-notes.md` (must be UPPERCASE)
+
+✅ **DO**: Use exact name `EDITORIAL_NOTES.md` at root level
 
 ## Success Criteria
 

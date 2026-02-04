@@ -118,19 +118,38 @@ repetition. Make the conversation feel alive and varied.
 
 ## Output Format
 
-Split the episode transcript into multiple files by section in
-`stories/pair-<drug>-<disease>/transcript/` directory:
+**CRITICAL**: Create EXACTLY 9 files in the `transcript/` directory using standard chapter names.
+Do not use story-specific names in filenames.
 
--   `01-cold-open.md` - The teaser/intro
--   `02-context.md` - The Era
--   `03-origin.md` - The Intended Use
--   `04-struggle.md` - The Failure
--   `05-pivot-point.md` - The Discovery (or discoveries)
--   `06-renaissance.md` - Regulatory & Business
--   `07-impact.md` - Financial and Cultural Impact
+### File Checklist (REQUIRED)
 
-Include breaks between sections where the speakers riff naturally (e.g., "Shall we take a break?" /
-"Yeah, let's do it").
+Create these files in `stories/pair-<drug>-<disease>/transcript/`:
+
+1. ✅ `01-cold-open.md` - Opening teaser/hook
+2. ✅ `02-context.md` - The Era chapter
+3. ✅ `03-origin.md` - The Intended Use chapter
+4. ✅ `04-struggle.md` - The Failure chapter (brief if no failure)
+5. ✅ `05-pivot-point.md` - The Discovery chapter (CLIMAX)
+6. ✅ `06-renaissance.md` - Regulatory & Business chapter
+7. ✅ `07-impact.md` - Financial/Cultural Impact chapter
+8. ✅ `08-playbook.md` - Mental models discussion
+9. ✅ `09-grading.md` - Scoring and conclusion
+
+Include natural breaks between sections (e.g., "Shall we take a break?" / "Yeah, let's do it").
+
+### Naming Rules - DO NOT VIOLATE
+
+❌ **DO NOT** use story-specific names:
+- `easter-island.md` (use `02-context.md` or appropriate chapter)
+- `wrong-target.md` (use standard chapter name)
+- `chapter1-wrong-target.md` (no "chapter" prefix)
+- `phone-call.md` (use standard chapter name)
+
+❌ **DO NOT** use descriptive suffixes:
+- `02-context-era.md` (use `02-context.md`)
+- `05-pivot-point-discovery.md` (use `05-pivot-point.md`)
+
+✅ **DO**: Use ONLY the exact filenames from checklist above
 
 ## Critical Guidelines
 

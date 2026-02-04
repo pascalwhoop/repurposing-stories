@@ -78,12 +78,27 @@ Create a **multi-dimensional grading framework**:
 
 ## Output Format
 
-Write all content to `stories/pair-<drug>-<disease>/shownotes/` directory:
-- `episode-structure.md` - Master document with all sections (cold open + full narrative arc + playbook + grading)
-- `01-cold-open.md` - The teaser (3 sentences)
-- `02-chapter-outline.md` - Narrative arc with timings, durations, beats, emotional tones, host dynamics, transitions
-- `03-playbook.md` - Three mental models with pattern/application/implications analysis
-- `04-grading-criteria.md` - Weighted rubrics, calculations, and host dialogue template
+**CRITICAL**: Create EXACTLY 5 files in the `shownotes/` directory. Do not deviate from these names.
+
+### File Checklist (REQUIRED)
+
+Create these files in `stories/pair-<drug>-<disease>/shownotes/`:
+
+1. ✅ `00-episode-structure.md` - Master document with ALL sections combined
+2. ✅ `01-cold-open.md` - The teaser strategy (3 sentences)
+3. ✅ `02-narrative-arc.md` - Chapter outline with precise timings
+4. ✅ `03-playbook.md` - Three mental models with full analysis
+5. ✅ `04-grading-criteria.md` - Weighted rubrics and scoring
+
+### Naming Rules - DO NOT VIOLATE
+
+❌ **DO NOT**:
+- Place files at root level (they must be in `shownotes/` directory)
+- Use names like `EPISODE_STRUCTURE.md` (use lowercase with number prefix)
+- Use `chapter-outline.md` (use `narrative-arc.md`)
+- Create duplicate files with different names
+
+✅ **DO**: Use exact filenames from checklist above
 
 ## Structural Guidelines
 
