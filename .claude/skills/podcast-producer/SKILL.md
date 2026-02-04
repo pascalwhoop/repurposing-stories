@@ -53,7 +53,13 @@ stories/pair-<drug>-<disease>/
 
 ### Step 3: Run Production Pipeline
 
-Execute agents sequentially using the Task tool with subagent types:
+Execute agents sequentially using the Task tool. After each agent:
+1. ✅ **Verify output** (check expected files exist)
+2. ✅ **Auto-cleanup** (fix common naming/location mistakes)
+3. ⚠️ **Retry once** if issues remain (with specific feedback)
+4. ❌ **Fail** if still broken after retry
+
+Execute agents in this order:
 
 #### Agent 1: Archivist (Research)
 ```
@@ -411,13 +417,104 @@ When issues are detected, automatically:
 
 ### When Cleanup Cannot Fix
 
-If issues cannot be auto-fixed, treat as agent failure:
+If issues cannot be auto-fixed, use **retry-with-feedback mechanism**:
+
+#### Step 1: Identify Issues
+
+Detect problems that require agent re-work:
 - Missing required files
 - Empty or corrupted files
 - Files with error messages instead of content
-- Fundamental structural problems
+- Wrong file structure that can't be auto-renamed
+- Content quality issues (no citations, missing timings, etc.)
 
-Follow the error handling process and create PRODUCTION_ERROR.md.
+#### Step 2: Re-invoke Agent Once with Feedback
+
+Give the agent ONE chance to fix issues by re-invoking with specific feedback:
+
+```
+Task tool parameters:
+- subagent_type: "[agent-name]"
+- description: "Fix issues in [agent] output"
+- prompt: "You previously generated output for [drug]-[disease] but there were issues.
+
+           Problems found:
+           - [Specific issue 1]
+           - [Specific issue 2]
+           - [Specific issue 3]
+
+           Please fix these issues. Your output should include:
+           - [Expected file 1]
+           - [Expected file 2]
+           - [Expected file 3]
+
+           Do NOT repeat the mistakes. Follow the file structure exactly as specified
+           in your instructions."
+```
+
+**Feedback should be specific:**
+- ✅ "Missing required file: background/04-pivot-point.md"
+- ✅ "File background/02-origin.md is empty (0 bytes)"
+- ✅ "README.md is only 150 words, needs 400-600 words"
+- ✅ "No sources cited in any background files"
+- ❌ "Files are wrong" (too vague)
+
+#### Step 3: Verify Again After Retry
+
+After agent re-runs:
+1. Check if issues are fixed
+2. Run cleanup again (in case of new mistakes)
+3. If STILL broken → treat as failure
+
+#### Step 4: Fail After One Retry
+
+If agent fails twice (original + one retry), give up and follow error handling:
+- Create PRODUCTION_ERROR.md with specific details
+- Note that agent was given feedback and failed to fix
+- Commit partial work
+- Report failure to user
+
+**Example error report:**
+```markdown
+## Error Description
+
+Archivist agent failed to create required files after two attempts.
+
+First attempt issues:
+- Missing file: background/04-pivot-point.md
+- File background/02-origin.md was empty
+
+Agent was re-invoked with specific feedback.
+
+Second attempt issues:
+- Still missing file: background/04-pivot-point.md
+- File now has content but no citations
+
+After two attempts, agent could not produce correct output.
+
+## Required Action
+
+TODO: Human needs to manually create background/04-pivot-point.md
+```
+
+### Retry vs. Auto-Fix Decision
+
+**Auto-fix (no retry needed):**
+- Wrong filename (can rename)
+- Wrong location (can move)
+- Duplicate files (can delete)
+- Incorrect casing (can rename)
+
+**Retry with feedback:**
+- Missing files (agent needs to create content)
+- Empty files (agent needs to write content)
+- Missing critical elements (citations, timings, etc.)
+- Quality issues (too short, wrong format, etc.)
+
+**Fail immediately (no retry):**
+- Agent crashes or returns error
+- Agent refuses to run
+- Downstream dependency failures (e.g., showrunner can't run if archivist failed)
 
 ## Agent Configuration
 
