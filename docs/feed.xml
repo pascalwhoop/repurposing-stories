@@ -4,13 +4,23 @@
         <title>The Pivot - Drug Repurposing Stories</title>
         <link>https://pascalwhoop.github.io/repurposing-stories</link>
         <description>The Pivot analyzes the business and science of repurposed drugs, modeled after the structure of the Acquired podcast. Each episode deep-dives into a drug that failed at its original purpose but found massive success in treating a completely different condition.</description>
-        <lastBuildDate>Tue, 09 Dec 2025 00:32:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Feb 2026 17:45:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>© 2025 The Pivot Podcast</copyright>
         <category>Science</category>
         <category>Business</category>
+        <item>
+            <title><![CDATA[Episode 04: Aspirin - The Penny Pill That Saves Millions]]></title>
+            <link>https://pascalwhoop.github.io/repurposing-stories</link>
+            <guid>aspirin-cardiovascular-disease-prevention-episode-04</guid>
+            <pubDate>Wed, 05 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[In 1897, a German chemist synthesized a white powder to soothe his father's arthritis—and created what would become the world's best-selling painkiller. But for 51 years, no one suspected this humble pill had a second, far more important superpower: preventing the heart attacks and strokes that kill more people than any other disease. Today, that discovery saves over a million lives annually—yet the man who figured it out died of a heart attack, ignored by the medical establishment, never knowing he was right. This is the story of Lawrence Craven's lonely crusade, John Vane's Nobel Prize-winning mechanism, the decades of clinical trials that finally validated aspirin's cardiovascular power, and how a penny-per-pill generic drug became the most prescribed medication in history.]]></description>
+            <content:encoded><![CDATA[In 1897, a German chemist synthesized a white powder to soothe his father's arthritis—and created what would become the world's best-selling painkiller. But for 51 years, no one suspected this humble pill had a second, far more important superpower: preventing the heart attacks and strokes that kill more people than any other disease. Today, that discovery saves over a million lives annually—yet the man who figured it out died of a heart attack, ignored by the medical establishment, never knowing he was right. This is the story of Lawrence Craven's lonely crusade, John Vane's Nobel Prize-winning mechanism, the decades of clinical trials that finally validated aspirin's cardiovascular power, and how a penny-per-pill generic drug became the most prescribed medication in history.]]></content:encoded>
+            <author>contact@pascalwhoop.com (The Pivot Podcast)</author>
+            <enclosure length="37907348" type="audio/mpeg" url="https://pascalwhoop.github.io/repurposing-stories/episodes/aspirin-cardiovascular-disease-prevention.mp3"/>
+        </item>
         <item>
             <title><![CDATA[Episode 03: Sirolimus - The Molecule That Refused to Die]]></title>
             <link>https://pascalwhoop.github.io/repurposing-stories</link>
