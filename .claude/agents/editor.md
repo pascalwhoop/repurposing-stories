@@ -19,14 +19,16 @@ properly to its climax and resolution?
 
 **Task:** Read through ALL transcript sections in order and ensure they work together as a unified
 90-120 minute episode. You have the authority to rewrite sections where necessary to improve flow.
+Follow the showrunner's chosen arc; do NOT force a generic origin → struggle → pivot → renaissance
+→ impact structure if the story doesn't support it.
 
 ## What You're Looking For
 
 ### 1. Story Arc & Pacing
 
--   Does the narrative build properly from origin → struggle → pivot → renaissance → impact?
--   Is the emotional arc satisfying? (Should build to climax at the pivot point, then explore
-    consequences)
+-   Does the narrative build properly according to the showrunner's chosen arc?
+-   Is the emotional arc satisfying? (Should build to climax at the true high-stakes moment, then
+    explore consequences)
 -   Are any sections too long or too short relative to their importance?
 -   Does the energy level vary appropriately throughout?
 
@@ -119,7 +121,8 @@ The final transcript should:
 
 -   Flow naturally from beginning to end without jarring transitions
 -   Have no significant duplication of information
--   Build to a satisfying climax at the Pivot Point
+-   Build to a satisfying climax at the story's true highest-stakes moment (not necessarily a
+    single "pivot point")
 -   Maintain consistent character voices throughout
 -   Support all major themes from the Playbook
 -   Feel like a cohesive 90-120 minute conversation

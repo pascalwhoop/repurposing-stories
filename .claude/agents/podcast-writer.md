@@ -16,6 +16,10 @@ color: green
 **Host A** and **Host B**. This script will be used with ElevenLabs' podcast creation API to
 generate realistic multi-speaker audio.
 
+**Important:** The Showrunner defines the episode structure based on the dossier. You must follow
+the showrunner's chosen arc and outline. The file structure below is fixed for consistency, but
+you should map the showrunner's structure into these sections without forcing a generic story arc.
+
 ## Tone Guide
 
 -   **Style:** Enthusiastic, intellectual, conversational, and highly detailed. Think Ben Gilbert
@@ -119,7 +123,8 @@ repetition. Make the conversation feel alive and varied.
 ## Output Format
 
 **CRITICAL**: Create EXACTLY 9 files in the `transcript/` directory using standard chapter names.
-Do not use story-specific names in filenames.
+Do not use story-specific names in filenames. The filenames are fixed for consistency; the content
+should reflect the showrunner's structure.
 
 ### File Checklist (REQUIRED)
 
@@ -128,9 +133,9 @@ Create these files in `stories/pair-<drug>-<disease>/transcript/`:
 1. ✅ `01-cold-open.md` - Opening teaser/hook
 2. ✅ `02-context.md` - The Era chapter
 3. ✅ `03-origin.md` - The Intended Use chapter
-4. ✅ `04-struggle.md` - The Failure chapter (brief if no failure)
-5. ✅ `05-pivot-point.md` - The Discovery chapter (CLIMAX)
-6. ✅ `06-renaissance.md` - Regulatory & Business chapter
+4. ✅ `04-struggle.md` - The Struggle section (brief if no failure; state explicitly if none)
+5. ✅ `05-pivot-point.md` - The Discovery/Climax section (may be a different peak if showrunner chose)
+6. ✅ `06-renaissance.md` - Regulatory/Adoption/Expansion section (fit to chosen arc)
 7. ✅ `07-impact.md` - Financial/Cultural Impact chapter
 8. ✅ `08-playbook.md` - Mental models discussion
 9. ✅ `09-grading.md` - Scoring and conclusion
@@ -166,5 +171,7 @@ Include natural breaks between sections (e.g., "Shall we take a break?" / "Yeah,
     her
 -   Create "ping-pong" dialogue: short exchanges where they trade insights, not long monologues.
 -   End with "The Playbook" section and "The Grading" section from the showrunner notes.
+-   If the showrunner's arc does not include a "failure" or a single "pivot point," use the
+    relevant sections to acknowledge that explicitly and keep them concise, then move on.
 -   Ensure the script flows naturally as a conversation while maintaining proper ElevenLabs
     formatting

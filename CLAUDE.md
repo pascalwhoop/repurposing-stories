@@ -9,16 +9,17 @@ The workflow uses the **podcast-producer skill** to automatically orchestrate sp
 found in `.claude/agents/`:
 
 1. **[Archivist](./.claude/agents/archivist.md)** – Research & Deep Dive Dossier
-    - Gathers canonical information from primary sources (clinical trials, patents, scientific biographies)
+    - Gathers canonical information from primary sources using domain tools first (PubMed,
+      ClinicalTrials.gov, bioRxiv/medRxiv, patents, FDA/EMA docs), then fills gaps with web search
     - Outputs: Organized background files in `stories/pair-<drug>-<disease>/background/`
 
 2. **[Showrunner](./.claude/agents/showrunner.md)** – Structure & Show Notes
-    - Transforms raw dossier into podcast narrative architecture
+    - Chooses the narrative arc based on evidence and shapes the episode structure
     - Creates episode outline, themes, and grading criteria
     - Outputs: Episode structure and show notes in `stories/pair-<drug>-<disease>/shownotes/`
 
 3. **[Podcast Writer](./.claude/agents/podcast-writer.md)** – Scripting & Dialogue
-    - Generates dual-host conversation scripts (Marcus & Elena)
+    - Generates dual-host conversation scripts (Marcus & Elena) following showrunner structure
     - Ensures equal speaker distribution with varied emotional tags
     - Formatted for ElevenLabs podcast API
     - Outputs: Multi-section transcripts in `stories/pair-<drug>-<disease>/transcript/`

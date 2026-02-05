@@ -22,8 +22,8 @@ produced episode ready for publishing.
 The pipeline runs agents in this order:
 
 1. **Archivist** - Research and compile background dossier
-2. **Showrunner** - Create episode structure and show notes
-3. **Podcast-writer** - Generate dual-host dialogue transcript
+2. **Showrunner** - Create episode structure and show notes (chooses arc based on evidence)
+3. **Podcast-writer** - Generate dual-host dialogue transcript (follows showrunner structure)
 4. **Editor** - Final editorial pass for narrative coherence
 5. **Speaker** - Generate audio from completed transcript
 
@@ -66,10 +66,12 @@ Execute agents in this order:
 Task tool parameters:
 - subagent_type: "archivist"
 - description: "Research background for [drug]-[disease]"
-- prompt: "Research and compile a comprehensive background dossier for [Drug Name]
-           repurposed for [Disease Name]. Generate detailed background files covering
-           discovery context, original use, pivot point, regulatory path, mechanism,
-           and impact."
+- prompt: "Research and compile a comprehensive, evidence-first background dossier for
+           [Drug Name] repurposed for [Disease Name]. Use specialized sources first
+           (PubMed, ClinicalTrials.gov, bioRxiv/medRxiv, patents, FDA/EMA docs), then
+           general web search only to fill gaps. Generate detailed background files
+           with citations covering context, origin, evidence of discovery/trigger,
+           regulatory/adoption history, mechanism, and impact."
 ```
 
 **Output**: `stories/pair-<drug>-<disease>/background/*.md` files
@@ -82,13 +84,14 @@ Task tool parameters:
 - subagent_type: "showrunner"
 - description: "Create episode structure for [drug]-[disease]"
 - prompt: "Using the background dossier at stories/pair-<drug>-<disease>/background/,
-           create the episode structure with cold open, chapter outline, thematic playbook,
-           and grading criteria. Output to stories/pair-<drug>-<disease>/shownotes/"
+           choose the narrative structure that best fits the evidence, then create the episode
+           structure with cold open, chapter outline, thematic playbook, and grading criteria.
+           Output to stories/pair-<drug>-<disease>/shownotes/"
 ```
 
 **Output**: `stories/pair-<drug>-<disease>/shownotes/*.md` files
 
-**Verification**: Check that episode-structure.md exists with narrative arc and timing
+**Verification**: Check that 00-episode-structure.md exists with narrative arc and timing
 
 #### Agent 3: Podcast-writer (Scripting)
 ```
@@ -96,9 +99,10 @@ Task tool parameters:
 - subagent_type: "podcast-writer"
 - description: "Generate transcript for [drug]-[disease]"
 - prompt: "Using the episode structure at stories/pair-<drug>-<disease>/shownotes/,
-           generate full podcast transcript with dual-host dialogue (Marcus & Elena).
-           Ensure equal speaker distribution and varied emotional tags. Format for
-           ElevenLabs podcast API. Output to stories/pair-<drug>-<disease>/transcript/"
+           generate full podcast transcript with dual-host dialogue (Marcus & Elena),
+           following the showrunner's chosen structure. Ensure equal speaker distribution
+           and varied emotional tags. Format for ElevenLabs podcast API. Output to
+           stories/pair-<drug>-<disease>/transcript/"
 ```
 
 **Output**: `stories/pair-<drug>-<disease>/transcript/*.md` files (one per chapter)

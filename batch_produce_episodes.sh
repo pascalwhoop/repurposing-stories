@@ -8,8 +8,6 @@
 # Usage:
 #   ./batch_produce_episodes.sh                     # Interactive mode (prints commands)
 #   ./batch_produce_episodes.sh --auto              # Run all episodes sequentially
-#   ./batch_produce_episodes.sh --auto --runner=claude
-#   ./batch_produce_episodes.sh --auto --runner=docker
 #   bash -x batch_produce_episodes.sh --auto        # Run with debug output
 #
 # Or run individual lines manually:
@@ -32,30 +30,21 @@ echo ""
 
 # Default options
 MODE="interactive"
-RUNNER="claude"
 
 # Parse args
 for arg in "$@"; do
   case "$arg" in
-    --auto) MODE="auto" ;;
-    --runner=claude) RUNNER="claude" ;;
-    --runner=docker) RUNNER="docker" ;;
-    --claude) RUNNER="claude" ;;
-    --docker) RUNNER="docker" ;;
-    *)
-      echo -e "${RED}Unknown argument: $arg${NC}"
-      echo "Usage: ./batch_produce_episodes.sh [--auto] [--runner=claude|docker]"
-      exit 1
-      ;;
+  --auto) MODE="auto" ;;
+  *)
+    echo -e "${RED}Unknown argument: $arg${NC}"
+    echo "Usage: ./batch_produce_episodes.sh [--auto]"
+    exit 1
+    ;;
   esac
 done
 
 # Build runner command as an array
-if [ "$RUNNER" = "docker" ]; then
-  CLAUDE_CMD=(docker sandbox run claude)
-else
-  CLAUDE_CMD=(claude)
-fi
+CLAUDE_CMD=(claude --dangerously-skip-permissions)
 CLAUDE_STREAM_FLAGS=(--print --verbose --output-format=stream-json)
 
 ensure_jq() {
@@ -70,7 +59,7 @@ stream_claude_human() {
   local prompt="$1"
 
   set -o pipefail
-  "${CLAUDE_CMD[@]}" "${CLAUDE_STREAM_FLAGS[@]}" "$prompt" | \
+  "${CLAUDE_CMD[@]}" "${CLAUDE_STREAM_FLAGS[@]}" "$prompt" |
     while IFS= read -r line; do
       # Show assistant text when present
       text=$(echo "$line" | jq -r '
@@ -114,31 +103,31 @@ declare -a EPISODES=(
   "Zidovudine and HIV AIDS"
   "Sildenafil and Erectile Dysfunction"
   "Thalidomide and Multiple Myeloma"
-  "Methotrexate and Rheumatoid Arthritis"
-  # Minoxidil-Alopecia COMPLETED
-  "Botulinum Toxin and Chronic Migraine"
-  "Finasteride and Androgenetic Alopecia"
-  "Imatinib and GIST Stromal Tumors"
-  "Metformin and PCOS"
-  "Propranolol and Infantile Hemangioma"
-  # Rituximab-MS COMPLETED
-  "Ketamine and Depression TRD"
-  "Spironolactone and Heart Failure"
-  "Amantadine and Parkinsons Disease"
-  "Colchicine and Pericarditis"
-  "Dimethyl Fumarate and Multiple Sclerosis"
-  "Topiramate and Migraine Prophylaxis"
-  "Gabapentin and Neuropathic Pain"
-  "Bupropion and Smoking Cessation"
-  "Hydroxychloroquine and Lupus"
-  "Amphotericin B and Visceral Leishmaniasis"
-  "Raloxifene and Breast Cancer Prevention"
-  "Sildenafil and Pulmonary Hypertension"
-  "Miltefosine and Visceral Leishmaniasis"
-  # Sirolimus-Lymphangioleiomyomatosis COMPLETED
-  "Eflornithine and Sleeping Sickness"
-  "Pregabalin and Generalized Anxiety Disorder"
-  "Duloxetine and Stress Urinary Incontinence"
+  # "Methotrexate and Rheumatoid Arthritis"
+  # # Minoxidil-Alopecia COMPLETED
+  # "Botulinum Toxin and Chronic Migraine"
+  # "Finasteride and Androgenetic Alopecia"
+  # "Imatinib and GIST Stromal Tumors"
+  # "Metformin and PCOS"
+  # "Propranolol and Infantile Hemangioma"
+  # # Rituximab-MS COMPLETED
+  # "Ketamine and Depression TRD"
+  # "Spironolactone and Heart Failure"
+  # "Amantadine and Parkinsons Disease"
+  # "Colchicine and Pericarditis"
+  # "Dimethyl Fumarate and Multiple Sclerosis"
+  # "Topiramate and Migraine Prophylaxis"
+  # "Gabapentin and Neuropathic Pain"
+  # "Bupropion and Smoking Cessation"
+  # "Hydroxychloroquine and Lupus"
+  # "Amphotericin B and Visceral Leishmaniasis"
+  # "Raloxifene and Breast Cancer Prevention"
+  # "Sildenafil and Pulmonary Hypertension"
+  # "Miltefosine and Visceral Leishmaniasis"
+  # # Sirolimus-Lymphangioleiomyomatosis COMPLETED
+  # "Eflornithine and Sleeping Sickness"
+  # "Pregabalin and Generalized Anxiety Disorder"
+  # "Duloxetine and Stress Urinary Incontinence"
 )
 
 # Function to produce a single episode
@@ -169,9 +158,6 @@ produce_episode() {
 echo "Total episodes to produce: ${#EPISODES[@]}"
 echo ""
 echo "Mode: ${MODE}"
-echo "Runner: ${RUNNER}"
-echo ""
-
 if [ "$MODE" = "auto" ]; then
   # Automatic batch mode - run all episodes
   echo -e "${BLUE}Running in AUTOMATIC mode...${NC}"
@@ -229,7 +215,6 @@ else
   echo ""
   echo "To run ALL episodes automatically (overnight):"
   echo "  ./batch_produce_episodes.sh --auto"
-  echo "  ./batch_produce_episodes.sh --auto --runner=docker"
   echo ""
   echo "To run with verbose output:"
   echo "  bash -x ./batch_produce_episodes.sh --auto"
