@@ -74,7 +74,6 @@ The sildenafil story reminds us that drug development is not always linear. Some
 
 ## Learn More
 
-This story is part of the EveryCure repurposing stories project, exploring how existing drugs find new medical uses.
 
 **For full research details and citations, see:** [background/00-dossier-overview.md](background/00-dossier-overview.md)
 

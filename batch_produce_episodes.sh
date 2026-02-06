@@ -99,35 +99,35 @@ format_cmd() {
 # Array of episodes to produce (excluding completed: minoxidil-alopecia, rituximab-ms, sirolimus-lymphangioleiomyomatosis)
 declare -a EPISODES=(
   #"Aspirin and Cardiovascular Disease Prevention" COMPLETED
-  "Dexamethasone and COVID-19 Severe"
-  "Zidovudine and HIV AIDS"
-  "Sildenafil and Erectile Dysfunction"
-  "Thalidomide and Multiple Myeloma"
-  # "Methotrexate and Rheumatoid Arthritis"
-  # # Minoxidil-Alopecia COMPLETED
-  # "Botulinum Toxin and Chronic Migraine"
-  # "Finasteride and Androgenetic Alopecia"
-  # "Imatinib and GIST Stromal Tumors"
-  # "Metformin and PCOS"
-  # "Propranolol and Infantile Hemangioma"
-  # # Rituximab-MS COMPLETED
-  # "Ketamine and Depression TRD"
-  # "Spironolactone and Heart Failure"
-  # "Amantadine and Parkinsons Disease"
-  # "Colchicine and Pericarditis"
-  # "Dimethyl Fumarate and Multiple Sclerosis"
-  # "Topiramate and Migraine Prophylaxis"
-  # "Gabapentin and Neuropathic Pain"
-  # "Bupropion and Smoking Cessation"
-  # "Hydroxychloroquine and Lupus"
-  # "Amphotericin B and Visceral Leishmaniasis"
-  # "Raloxifene and Breast Cancer Prevention"
-  # "Sildenafil and Pulmonary Hypertension"
-  # "Miltefosine and Visceral Leishmaniasis"
-  # # Sirolimus-Lymphangioleiomyomatosis COMPLETED
-  # "Eflornithine and Sleeping Sickness"
-  # "Pregabalin and Generalized Anxiety Disorder"
-  # "Duloxetine and Stress Urinary Incontinence"
+  # "Dexamethasone and COVID-19 Severe"
+  # "Zidovudine and HIV AIDS"
+  # "Sildenafil and Erectile Dysfunction"
+  # "Thalidomide and Multiple Myeloma"
+  "Methotrexate and Rheumatoid Arthritis"
+  # Minoxidil-Alopecia COMPLETED
+  "Botulinum Toxin and Chronic Migraine"
+  "Finasteride and Androgenetic Alopecia"
+  "Imatinib and GIST Stromal Tumors"
+  "Metformin and PCOS"
+  "Propranolol and Infantile Hemangioma"
+  # Rituximab-MS COMPLETED
+  "Ketamine and Depression TRD"
+  "Spironolactone and Heart Failure"
+  "Amantadine and Parkinsons Disease"
+  "Colchicine and Pericarditis"
+  "Dimethyl Fumarate and Multiple Sclerosis"
+  "Topiramate and Migraine Prophylaxis"
+  "Gabapentin and Neuropathic Pain"
+  "Bupropion and Smoking Cessation"
+  "Hydroxychloroquine and Lupus"
+  "Amphotericin B and Visceral Leishmaniasis"
+  "Raloxifene and Breast Cancer Prevention"
+  "Sildenafil and Pulmonary Hypertension"
+  "Miltefosine and Visceral Leishmaniasis"
+  # Sirolimus-Lymphangioleiomyomatosis COMPLETED
+  "Eflornithine and Sleeping Sickness"
+  "Pregabalin and Generalized Anxiety Disorder"
+  "Duloxetine and Stress Urinary Incontinence"
 )
 
 # Function to produce a single episode

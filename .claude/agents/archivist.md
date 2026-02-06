@@ -48,17 +48,19 @@ have a consistent substrate, even if a given section is short.
 2. **The Origin (The Intended Use):** Why the molecule was created, who created it, and the
    original intended mechanism/indication.
 
-3. **The Struggle (The Setbacks or Constraints):** Any setbacks, limitations, or constraints in the
-   original indication or early development. If none, explicitly state that and explain why.
+3. **Setbacks or Constraints (if any):** Any setbacks, limitations, or constraints in the original
+   indication or early development. If none, explicitly state that and explain why (e.g., "no
+   material setbacks documented").
 
-4. **The Discovery or Trigger Evidence:** If there was a clear discovery moment, detail who noticed
-   the new effect and how. If there was no single pivot point, describe the earliest credible
-   signals that initiated repurposing (case reports, mechanistic hypothesis, off-label use, etc.).
-   Be explicit about evidence type and timing.
+4. **Discovery/Trigger Evidence (if any):** If there was a clear discovery moment, detail who
+   noticed the new effect and how. If there was no single pivot or no clear trigger, describe the
+   earliest credible signals (case reports, mechanistic hypothesis, off-label use, etc.). If no
+   triggering evidence is documented, say so explicitly. Be clear about evidence type and timing.
 
 5. **Regulatory, Commercial, and Adoption Evidence:** Regulatory milestones, label changes,
    commercial strategy, adoption patterns, and market dynamics. If formal regulatory milestones are
-   absent, describe off-label or informal adoption with evidence.
+   absent, describe off-label or informal adoption with evidence. If adoption evidence is thin,
+   state that clearly.
 
 6. **The Science (Mechanism of Action):** Explain _how_ it works for the new indication, supported
    by evidence and references. Use a simple analogy only if it does not oversimplify or distort.
@@ -68,7 +70,7 @@ have a consistent substrate, even if a given section is short.
 
 ## Output Format
 
-**CRITICAL**: You must create EXACTLY 9 files following the standard structure defined in
+**CRITICAL**: You must create EXACTLY 9 core files following the standard structure defined in
 `FILE_STRUCTURE_STANDARD.md`. Do not deviate from these filenames or locations. The filenames are
 fixed for consistency and do NOT imply a required narrative arc.
 
@@ -83,11 +85,24 @@ Create these files in this exact order:
 2. ✅ `background/00-dossier-overview.md` - Technical executive summary
 3. ✅ `background/01-context.md` - The Era
 4. ✅ `background/02-origin.md` - The Intended Use
-5. ✅ `background/03-struggle.md` - Setbacks/constraints evidence (brief if none)
-6. ✅ `background/04-pivot-point.md` - Discovery/trigger evidence (may be diffuse)
-7. ✅ `background/05-renaissance.md` - Regulatory/adoption/commercial evidence
+5. ✅ `background/03-struggle.md` - Setbacks/constraints evidence (explicitly state if none)
+6. ✅ `background/04-pivot-point.md` - Discovery/trigger evidence (explicitly state if none)
+7. ✅ `background/05-renaissance.md` - Regulatory/adoption/commercial evidence (explicitly state if none)
 8. ✅ `background/06-mechanism.md` - Mechanism of Action
 9. ✅ `background/07-impact.md` - Financial and Cultural Impact
+
+### Optional Files (Create ONLY if evidence supports them)
+
+- `background/08-key-people.md` - Inventors, clinicians, executives, advocates with roles and dates
+- `background/09-patients-and-communities.md` - Patient anecdotes, advocacy groups, lived experience evidence
+- `background/10-controversies-and-critique.md` - Safety debates, off-label disputes, equity/access concerns
+- `background/11-competing-therapies.md` - Standard of care, rivals, why this repurposed drug mattered
+- `background/12-economics-and-pricing.md` - Pricing, reimbursement, market dynamics beyond basic impact
+- `background/13-global-variation.md` - Differences by country, approvals, access, adoption timelines
+- `background/14-failed-hypotheses.md` - Dead ends, false leads, retracted claims
+- `background/15-methods-and-data-quality.md` - Study design quality, biases, data gaps, evidence strength
+- `background/16-culture-and-media.md` - Media narratives, public perception, cultural moments
+- `background/17-legal-and-ip.md` - Patents, exclusivity, litigation, licensing
 
 ### File Content Requirements
 
