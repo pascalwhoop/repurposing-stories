@@ -31,5 +31,49 @@
     "duration_seconds": 3016,
     "mp3_filename": "sirolimus-multiple.mp3",
     "source_mp3": "full-episode.mp3"
+  },
+  {
+    "episode_number": 4,
+    "drug": "dexamethasone",
+    "disease": "covid-19-severe",
+    "title": "Dexamethasone for Severe COVID-19",
+    "description": "In March 2020, as hospitals worldwide faced a staggering 40% mortality rate among mechanically ventilated COVID-19 patients, a team at Oxford University made a controversial decision: they would test a 62-year-old generic steroid that cost pennies per dose—despite the World Health Organization explicitly recommending against it. One hundred days later, on June 16, 2020, their RECOVERY trial announced results that would change medical history: dexamethasone reduced mortality by 36% in ventilated patients, becoming the first proven COVID-19 treatment and saving an estimated 650,000 lives in just six months. This is the story of how systematic science, crisis-driven speed, and a willingness to challenge conventional wisdom transformed a routine hospital medication into the single most impactful therapeutic intervention of the pandemic—and what it teaches us about drug repurposing when lives hang in the balance.",
+    "pub_date": "February 6, 2026",
+    "duration_seconds": 4618,
+    "mp3_filename": "dexamethasone-covid-19-severe.mp3",
+    "source_mp3": "dexamethasone-full-episode.mp3"
+  },
+  {
+    "episode_number": 5,
+    "drug": "zidovudine",
+    "disease": "hiv-aids",
+    "title": "Zidovudine (AZT) for HIV/AIDS",
+    "description": "In 1987, Margaret Fischl's research team faced an ethical crisis: their placebo-controlled trial of a forgotten cancer drug was saving so many lives that continuing the study meant letting people die unnecessarily. The decision to stop the trial early and give everyone the active treatment would lead to the fastest drug approval in FDA history—a 25-month sprint from laboratory to pharmacy that transformed HIV from a death sentence into a manageable disease. But this drug, called AZT, had already failed once before.",
+    "pub_date": "February 6, 2026",
+    "duration_seconds": 5202,
+    "mp3_filename": "zidovudine-hiv-aids.mp3",
+    "source_mp3": "zidovudine-full-episode.mp3"
+  },
+  {
+    "episode_number": 6,
+    "drug": "sildenafil",
+    "disease": "erectile-dysfunction",
+    "title": "Sildenafil for Erectile Dysfunction",
+    "description": "When Pfizer scientists synthesized UK-92,480 in 1989 to treat chest pain, they were targeting a $2 billion cardiovascular market with rational drug design and solid mechanistic hypotheses. By 1993, after years of disappointing angina trials, the program was on the verge of termination—until a pattern emerged that no one had anticipated. Male trial participants were reporting a side effect they were reluctant to give up, and this \"failure\" would become the most famous drug repurposing story in pharmaceutical history, fundamentally changing how medicine and society approach sexual health.",
+    "pub_date": "February 6, 2026",
+    "duration_seconds": 4135,
+    "mp3_filename": "sildenafil-erectile-dysfunction.mp3",
+    "source_mp3": "sildenafil-full-episode.mp3"
+  },
+  {
+    "episode_number": 7,
+    "drug": "thalidomide",
+    "disease": "multiple-myeloma",
+    "title": "From Catastrophe to Cure: The Thalidomide Redemption",
+    "description": "In 1961, a German sedative called thalidomide was withdrawn from global markets after causing the worst pharmaceutical catastrophe in history—over ten thousand children born with devastating limb malformations. The drug's name became synonymous with regulatory failure, and for thirty-seven years, no major pharmaceutical company would touch it. Then in 1999, a dying multiple myeloma patient in Arkansas took thalidomide as a last resort—and their cancer went into remission. Within seven years, the FDA approved the world's most infamous drug as a cancer breakthrough, backed by the strictest safety program ever created. This is the story of how humanity's greatest pharmaceutical disaster became one of oncology's most valuable drugs, extending hundreds of thousands of lives and generating over eighty billion dollars—while never forgetting the tragedy that made it possible.",
+    "pub_date": "February 6, 2026",
+    "duration_seconds": 4292,
+    "mp3_filename": "thalidomide-multiple-myeloma.mp3",
+    "source_mp3": "thalidomide-full-episode.mp3"
   }
 ]
